@@ -1,0 +1,54 @@
+﻿<project version="2.9" name="Project_share" ID="68992E66-E3AF-E811-A929-2CF0EE17D8DC">
+  <params>
+    <pageParam version="5.3" minAllowVersion="5.3"/>
+    <projectParam version="2.9" minAllowVersion="2.9" platform="MtWeb" pageSize="(1100,6000)" backgroundColor="4294967295" fontSize="0" fontFamily="" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="Home" ID="5C9B2E66-E3AF-E811-A929-2CF0EE17D8DC" expanded="True" code="oIJNPUQuYX" thumbCode="oIJNPUQuYX" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+      </images>
+      <page name="search_id" ID="3691F5BF-93B4-E811-A929-2CF0EE17D8DC" expanded="True" code="SNVd1DexJu" thumbCode="SNVd1DexJu" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+        </images>
+        <page name="confirm" ID="4A2D4ADC-95B4-E811-A929-2CF0EE17D8DC" expanded="True" code="L1lG8pHcEP" thumbCode="L1lG8pHcEP" status="psWhite" isfolder="False" isshownode="True">
+          <images>
+            <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+          </images>
+          <page name="shared" ID="808CECE0-F9AF-E811-A929-2CF0EE17D8DC" expanded="True" code="qtF2lzj9mB" thumbCode="qtF2lzj9mB" status="psWhite" isfolder="False" isshownode="True">
+            <images>
+              <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+              <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
+            </images>
+          </page>
+        </page>
+      </page>
+    </page>
+    <page name="request" ID="F265B329-58B5-E811-A929-2CF0EE17D8DC" expanded="True" code="WLHTJ7nIza" thumbCode="WLHTJ7nIza" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+      </images>
+      <page name="Page" ID="AE8ADA80-58B5-E811-A929-2CF0EE17D8DC" expanded="True" code="OJnzzpigH8" thumbCode="OJnzzpigH8" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+          <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
+        </images>
+        <page name="Page1" ID="6EC8045A-5CB5-E811-A929-2CF0EE17D8DC" expanded="True" code="sfkv2CYV1c" thumbCode="sfkv2CYV1c" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+          <images>
+            <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+          </images>
+        </page>
+      </page>
+    </page>
+  </pages>
+  <trash/>
+  <deletes/>
+  <masters/>
+  <images>
+    <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+    <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
+  </images>
+</project>
