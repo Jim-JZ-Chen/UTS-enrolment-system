@@ -1,0 +1,147 @@
+html, body{
+    height: 100%;
+}
+
+/************************************* Sand Box ***********************************/
+
+#sandBox
+{
+
+    float: left;
+    width: 940px;
+    padding-left: 400px;
+}
+
+.slot
+{
+    height: 108px;
+    width: 180px;
+    border: 4px dashed lightgray;
+    border-radius: 5px;
+    float: left;
+    margin: 0px 10px;
+}
+
+/***************************** Course Pool *****************************/
+#coursePool
+{
+    border: 4px solid black;
+    border-radius: 5px;
+    height: 95%;
+    width: 380px;
+}
+
+.coursePoolOnLeft
+{
+    position: fixed;
+    float: left;
+}
+
+
+.coursePoolOnRight
+{
+    position: relative;
+    float: right;
+}
+
+
+#coursePool #btnToTree
+{
+    position: absolute;
+    bottom:5px;
+    left:0px;
+}
+
+#coursePool #btnToSandbox
+{
+    position: absolute;
+    bottom:5px;
+    right:0px;
+}
+
+#coursePool #btnShare
+{
+    position: absolute;
+    bottom:5px;
+    right:150px;
+}
+.draggable
+{
+    width: 180px;
+    padding: 0.3em; 
+    float: left; 
+    margin: 0px; 
+}
+
+.OnSlot
+{
+    top:0px;
+    left: 0px;
+    padding: 0em; 
+    float: left; 
+    margin: 0px; 
+}
+
+.cssMainContent
+{
+
+    width: 180px;
+    background-color : rgb(255, 255, 255);
+    margin: 0px; 
+}
+
+/************************************** Tree Diagram**********************************/
+
+
+#treeDiagram
+{
+    height: 95%; 
+	margin: 5px; 
+	margin: 5px auto; 
+	border: 3px solid #DDD; 
+    border-radius: 3px; 
+}
+
+
+.node { 
+	color: #9CB5ED;
+    width: 180px;
+}
+
+.cssMainContent
+{
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.cssMainContent:hover
+{
+    background-color: #9CB5ED;
+}
+
+.onChild
+{
+    background-color: #9CB5ED;
+}
+
+
+.btnInPanel
+{
+    padding: 2px 5px;
+    display: none;
+    margin: -27px 4px 0px;
+    float: right;
+    border: 1px solid #DDD; 
+    border-radius: 3px; 
+    text-decoration: none;
+}
+
+.deleteBtn
+{
+    background-color: red;
+}
+
+.enrollBtn
+{
+    background-color: rgb(131, 131, 253);
+}

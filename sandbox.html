@@ -1,0 +1,405 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="./97-MSA.css">
+    <link type="text/css" rel="stylesheet" href="./StudyPlanDtls20.css">
+    <link type="text/css" rel="stylesheet" href="./sandbox.css" >
+    <link type="text/css" rel="stylesheet" href="./jquery-ui.css">
+    <title>
+        My Student Admin - C10345 Bachelor of Science in Information Technology Diploma IT Professional Practice - Study Plan Details - My Student Admin (Enrolment)
+    </title>
+    <link rel="stylesheet" href="./Treant.css">
+</head>
+
+<body>
+    <script src="./jquery-1.12.4.js"></script>
+    <script src="./jquery-ui.js"></script>
+    <script src="jquery.ui.touch-punch.min.js"></script>
+
+<script>
+    $( function() {
+        $(".draggable").draggable({ 
+            revert: "invalid", 
+            appendTo : "body",
+            start: function(event, ui ) 
+            {
+
+            }
+        });
+        
+        $( ".droppable" ).droppable({
+            classes: {
+                "ui-droppable-active": "ui-state-active",
+                "ui-droppable-hover": "ui-state-hover"
+            },
+            drop: function( event, ui ) {
+                $( this )
+                    .removeClass("droppable")
+                    .removeClass("ui-droppable");
+
+                    ui.draggable.appendTo($(this));
+                    ui.draggable.addClass("OnSlot");
+                    ui.draggable.css("top", "0px");
+                    ui.draggable.css("left", "0px");
+                    //console.log(ui);
+                    //console.log($( this ));
+                    
+            }
+        });
+    });
+
+    function MakePanel(course)
+    {
+        var panel = $('<div class="draggable"/>').html(GetHtml(course));
+        panel.draggable({ 
+            revert: "invalid", 
+            appendTo : "body",
+        });
+
+        panel.mouseover(function ()
+        {
+            $( this ).find( ".deleteBtn" ).show();
+        });
+
+
+        panel.mouseleave(function ()
+        {
+            $( this ).find( ".deleteBtn" ).hide();
+        });
+        course.draggablePanel = panel;
+        $("#coursePool").append(panel);
+    }
+
+    
+    
+
+    function ShowTreeDiagram()
+    {
+        $('#treeDiagram').show();
+        $('#coursePool').addClass('coursePoolOnRight');
+        $('#coursePool').removeClass('coursePoolOnLeft');
+        $('#sandBox').hide();
+        console.log("ShowTreeDiagram");
+        
+    }
+
+    function ShowSandBox()
+    {
+        $('#treeDiagram').hide();
+        $('#coursePool').addClass('coursePoolOnLeft');
+        $('#coursePool').removeClass('coursePoolOnRight');
+        $('#sandBox').show();
+    }
+
+</script>
+
+<div id="coursePool">
+    <button id="btnToTree" onclick="ShowTreeDiagram()"><-To Tree Diagram</button>
+    <button id="btnShare"><a href="Project_share/index.html">Share-></a></button>
+    <button id="btnToSandbox" onclick="ShowSandBox()">To Sandbox-></button>
+</div>
+
+<div id="treeDiagram">	
+
+    <div class="chart" id="OrganiseChart-simple">
+	</div>
+	<script src="./raphael.js"></script>
+	<script src="./Treant.js"></script>
+	<script src="JimAjax.js"></script>
+    <script src="tree.js"></script>
+</div>
+
+
+<div id="sandBox">
+    
+    <div>
+        <div>
+            <div id="ctl00_divMainContents">
+                <div id="divStudyPlanContainer">
+                    <div id="ctl00_Content_ctlStudyPlan_divMainContainer" class="cssMainContainer">
+                        <div id="ctl00_Content_ctlStudyPlan_divMasterContainer" class="cssMasterContainer">
+                            <table class="cssTableContainer">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div id="ctl00_Content_ctlStudyPlan_ctlStudyPlanItemMaster_divMainContent" class="cssMainContent cssMainContent_CompntType_C cssMainContent_SspStts_ADM cssMainContent_SpkCat_CR cssMainContent_SpkCatType_BD cssMainContent_CompntType_C cssMainContent_SspStts_ADM cssMainContent_SpkCat_CR cssMainContent_SpkCatType_BD">
+                                                <div id="ctl00_Content_ctlStudyPlan_ctlStudyPlanItemMaster_pnlContentTop" class="cssContentTop cssH1_ParentSsp cssH1_CompntType_C cssH1_SspStts_ADM cssH1_SpkCat_CR cssH1_SpkCatType_BD cssH1_ParentSsp cssH1_CompntType_C cssH1_SspStts_ADM cssH1_SpkCat_CR cssH1_SpkCatType_BD">
+                                                    <span id="ctl00_Content_ctlStudyPlan_ctlStudyPlanItemMaster_ltlContentTopText" class="cssContentTopText">
+                                                        Sand Box</span>
+                                                </div>
+                                                <div id="divMainContentRight" class="cssMainContentRight">
+                                                </div>
+                                            </div>
+                                            <ul id="ctl00_Content_ctlStudyPlan_liHeaderButtons" style="display:inline; list-style:none; padding: 0; margin-left:5px;">
+                                                <li id="btnCourseProgram" class="cssUTSLinkButtons cssButtonCourseProgram cssButtonExternal xtip" title="<b>Important Note: </b>You must enrol in subjects as advised within the Course Program.<br><br>The Course Program provides the subject sequence that <b>should</b> be undertaken each session for correct progression through your course.<br> Use the Course Program to look up your subjects and then find them in your Study Plan to proceed with enrolment.<br> If these subjects are unavailable, or the Course Program does not provide adequate information please contact your Student Centre for information.">
+                                                    <a href="http://www.handbook.uts.edu.au/courses/c10345.html#F22" id="ctl00_Content_ctlStudyPlan_lnkCourseProgram" target="_blank">
+                                                        Course Program</a>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <div id="ctl00_Content_ctlStudyPlan_divChildrenSsp" class="cssMainContainer cssChildrenSsp">
+
+                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divMainContainer" class="cssMainContainer cssPlanItemStructure cssMainContainer_SpkCat_MJ cssPlanItemSubject cssMainContainer_SpkCat_CB">
+                                <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divMasterContainer" class="cssMasterContainer">
+                                    <table class="cssTableContainer">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_divMainContent" class="cssMainContent cssMainContent_CompntType_O cssMainContent_SspStts_APR cssMainContent_SpkCat_MJ cssMainContent_SpkCatType_MJ" style="width: 295px;">
+                                                        <div id="divMainContentRight" class="cssMainContentRight">
+                                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_pnlContentTop"
+                                                                class="cssContentTop cssH1_StructSsp cssH1_CompntType_O cssH1_SspStts_APR cssH1_SpkCat_MJ cssH1_SpkCatType_MJ">
+
+                                                                <span id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_ltlContentTopText"
+                                                                    class="cssContentTopText">
+                                                                    Year 1</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                
+                                <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divChildrenSsp" class="cssMainContainer cssChildrenSsp">
+                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCore" class="cssPlanItemGroup cssPlanGroupCore">
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreHeader" class="cssPlanGroupHeader">
+                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreTitle" class="cssPlanGroupTitle">
+
+                                                Spring Semester
+                                            </div>
+                                        </div>
+
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreBody" class="cssMainContainer cssPlanGroupBody">
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                        </div>
+
+                                    </div>
+                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOption" class="cssPlanItemGroup cssPlanGroupOption">
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionHeader" class="cssPlanGroupHeader">
+                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionTitle" class="cssPlanGroupTitle">
+                                                Autum Semester
+                                            </div>
+                                        </div>
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionBody" class="cssMainContainer cssPlanGroupBody">
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="ctl00_Content_ctlStudyPlan_divChildrenSsp" class="cssMainContainer cssChildrenSsp">
+
+                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divMainContainer" class="cssMainContainer cssPlanItemStructure cssMainContainer_SpkCat_MJ cssPlanItemSubject cssMainContainer_SpkCat_CB">
+                                <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divMasterContainer" class="cssMasterContainer">
+                                    <table class="cssTableContainer">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_divMainContent" class="cssMainContent cssMainContent_CompntType_O cssMainContent_SspStts_APR cssMainContent_SpkCat_MJ cssMainContent_SpkCatType_MJ" style="width: 295px;">
+                                                        <div id="divMainContentRight" class="cssMainContentRight">
+                                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_pnlContentTop"
+                                                                class="cssContentTop cssH1_StructSsp cssH1_CompntType_O cssH1_SspStts_APR cssH1_SpkCat_MJ cssH1_SpkCatType_MJ">
+
+                                                                <span id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_ltlContentTopText"
+                                                                    class="cssContentTopText">
+                                                                    Year 2</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                
+                                <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divChildrenSsp" class="cssMainContainer cssChildrenSsp">
+                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCore" class="cssPlanItemGroup cssPlanGroupCore">
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreHeader" class="cssPlanGroupHeader">
+                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreTitle" class="cssPlanGroupTitle">
+
+                                                Spring Semester
+                                            </div>
+                                        </div>
+
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreBody" class="cssMainContainer cssPlanGroupBody">
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                        </div>
+
+                                    </div>
+                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOption" class="cssPlanItemGroup cssPlanGroupOption">
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionHeader" class="cssPlanGroupHeader">
+                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionTitle" class="cssPlanGroupTitle">
+                                                Autum Semester
+                                            </div>
+                                        </div>
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionBody" class="cssMainContainer cssPlanGroupBody">
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="ctl00_Content_ctlStudyPlan_divChildrenSsp" class="cssMainContainer cssChildrenSsp">
+
+                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divMainContainer" class="cssMainContainer cssPlanItemStructure cssMainContainer_SpkCat_MJ cssPlanItemSubject cssMainContainer_SpkCat_CB">
+                                <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divMasterContainer" class="cssMasterContainer">
+                                    <table class="cssTableContainer">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_divMainContent" class="cssMainContent cssMainContent_CompntType_O cssMainContent_SspStts_APR cssMainContent_SpkCat_MJ cssMainContent_SpkCatType_MJ" style="width: 295px;">
+                                                        <div id="divMainContentRight" class="cssMainContentRight">
+                                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_pnlContentTop"
+                                                                class="cssContentTop cssH1_StructSsp cssH1_CompntType_O cssH1_SspStts_APR cssH1_SpkCat_MJ cssH1_SpkCatType_MJ">
+
+                                                                <span id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_ltlContentTopText"
+                                                                    class="cssContentTopText">
+                                                                    Year 3</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                
+                                <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divChildrenSsp" class="cssMainContainer cssChildrenSsp">
+                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCore" class="cssPlanItemGroup cssPlanGroupCore">
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreHeader" class="cssPlanGroupHeader">
+                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreTitle" class="cssPlanGroupTitle">
+
+                                                Spring Semester
+                                            </div>
+                                        </div>
+
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreBody" class="cssMainContainer cssPlanGroupBody">
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                        </div>
+
+                                    </div>
+                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOption" class="cssPlanItemGroup cssPlanGroupOption">
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionHeader" class="cssPlanGroupHeader">
+                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionTitle" class="cssPlanGroupTitle">
+                                                Autum Semester
+                                            </div>
+                                        </div>
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionBody" class="cssMainContainer cssPlanGroupBody">
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="ctl00_Content_ctlStudyPlan_divChildrenSsp" class="cssMainContainer cssChildrenSsp">
+
+                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divMainContainer" class="cssMainContainer cssPlanItemStructure cssMainContainer_SpkCat_MJ cssPlanItemSubject cssMainContainer_SpkCat_CB">
+                                <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divMasterContainer" class="cssMasterContainer">
+                                    <table class="cssTableContainer">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_divMainContent" class="cssMainContent cssMainContent_CompntType_O cssMainContent_SspStts_APR cssMainContent_SpkCat_MJ cssMainContent_SpkCatType_MJ" style="width: 295px;">
+                                                        <div id="divMainContentRight" class="cssMainContentRight">
+                                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_pnlContentTop"
+                                                                class="cssContentTop cssH1_StructSsp cssH1_CompntType_O cssH1_SspStts_APR cssH1_SpkCat_MJ cssH1_SpkCatType_MJ">
+
+                                                                <span id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_ctlStudyPlanItemMaster_ltlContentTopText"
+                                                                    class="cssContentTopText">
+                                                                    Year 4</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                
+                                <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_divChildrenSsp" class="cssMainContainer cssChildrenSsp">
+                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCore" class="cssPlanItemGroup cssPlanGroupCore">
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreHeader" class="cssPlanGroupHeader">
+                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreTitle" class="cssPlanGroupTitle">
+
+                                                Spring Semester
+                                            </div>
+                                        </div>
+
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupCoreBody" class="cssMainContainer cssPlanGroupBody">
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                        </div>
+
+                                    </div>
+                                    <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOption" class="cssPlanItemGroup cssPlanGroupOption">
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionHeader" class="cssPlanGroupHeader">
+                                            <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionTitle" class="cssPlanGroupTitle">
+                                                Autum Semester
+                                            </div>
+                                        </div>
+                                        <div id="ctl00_Content_ctlStudyPlan_ctlSspItemCtrl_18946231_ctlSspItemCtrl_19041383_pnlPlanGroupOptionBody" class="cssMainContainer cssPlanGroupBody">
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                            <div class="slot droppable"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button>Share</button>
+    <button>Save</button>
+
+</div>
+
+
+
+<script>    
+ShowTreeDiagram();
+</script>
+</body>
+</html>

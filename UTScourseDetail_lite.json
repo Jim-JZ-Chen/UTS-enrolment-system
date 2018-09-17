@@ -1,0 +1,2888 @@
+
+
+[
+        {
+          "id": "32998",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": ".NET Application Development",
+          "Requisite": {
+            "a": "32555",
+            "#text": " Fundamentals of Software Development"
+          }
+        },
+        {
+          "id": "32013",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": ".NET Enterprise Development",
+          "Requisite": {
+            "a": [
+              "32998",
+              "32606"
+            ],
+            "#text": [
+              " .NET Application Development  AND",
+              " Database "
+            ]
+          }
+        },
+        {
+          "id": "32543",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "3D Animation"
+        },
+        {
+          "id": "31241",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "3D Computer Animation",
+          "Requisite": {
+            "a": [
+              "31264",
+              "31140"
+            ],
+            "#text": [
+              " Introduction to Computer Graphics  OR",
+              "Introduction to Computer Graphics "
+            ]
+          }
+        },
+        {
+          "id": "42010",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Advanced and Distributed Operating Systems"
+        },
+        {
+          "id": "31005",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Advanced Data Analytics",
+          "Requisite": {
+            "a": [
+              "31250",
+              "48024"
+            ],
+            "#text": [
+              " Introduction to Data Analytics  AND ",
+              " Applications Programming "
+            ]
+          }
+        },
+        {
+          "id": "32513",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Advanced Data Analytics Algorithms",
+          "Requisite": {
+            "a": "32130",
+            "#text": " Fundamentals of Data Analytics "
+          }
+        },
+        {
+          "id": "32113",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Advanced Database",
+          "Requisite": {
+            "a": [
+              "31487",
+              "31271",
+              "31061",
+              "31474",
+              "32606"
+            ],
+            "#text": [
+              "Database Management Systems  OR ",
+              " Database Fundamentals  OR ",
+              " Database Principles  OR",
+              "Database Fundamentals  OR ",
+              " Database "
+            ]
+          }
+        },
+        {
+          "id": "32544",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Advanced Image Synthesis Techniques"
+        },
+        {
+          "id": "31777",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Advanced Interaction Design",
+          "Requisite": {
+            "#text": [
+              " ((",
+              " Business Requirements Modelling  OR",
+              "Requirements Engineering  OR",
+              "Systems Development Project  OR",
+              "Systems Development  OR ",
+              " Software Engineering Practice  OR",
+              "Systems Modelling) AND ",
+              " Fundamentals of Interaction Design)"
+            ],
+            "a": [
+              "31269",
+              "31475",
+              "31476",
+              "31485",
+              "48440",
+              "31424",
+              "31260"
+            ]
+          }
+        },
+        {
+          "id": "32509",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Advanced Interaction Design",
+          "Requisite": {
+            "a": "42017",
+            "#text": " Fundamentals of Interaction Design "
+          }
+        },
+        {
+          "id": "32549",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Advanced Internet Programming",
+          "Requisite": {
+            "a": "32516",
+            "#text": " Internet Programming  "
+          }
+        },
+        {
+          "id": "31242",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Advanced Internet Programming",
+          "Requisite": {
+            "a": [
+              "31244",
+              "31469",
+              "48024"
+            ],
+            "#text": [
+              "Applications Programming  OR",
+              "Object-oriented Design  OR ",
+              " Applications Programming "
+            ]
+          }
+        },
+        {
+          "id": "32601",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Advanced Project Management",
+          "Requisite": {
+            "a": [
+              "32541",
+              "49002"
+            ],
+            "#text": [
+              " Project Management  OR ",
+              " Managing Projects "
+            ]
+          }
+        },
+        {
+          "id": "32009",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Advanced Routing Principles",
+          "Requisite": {
+            "a": [
+              "32524",
+              "32521"
+            ],
+            "#text": [
+              " LANS and Routing  AND",
+              " WANS and VLANS "
+            ]
+          },
+          "#text": [
+            " The lower case 'c' after the subject code indicates that the subject is a corequisite. See ",
+            " WANs and VLANs."
+          ],
+          "a": "32521",
+          "p": " It extends skills and knowledge in route optimisation and redistribution, router and routing protocol hardening, scalable interior and exterior routing protocols (OSPF, EIGRP, BGP) and NAT. The subject is run in the UTS Cisco Systems Network Academy. Cisco routers are programmed as part of practical work. The subject is part of a sequence which will allow students to prepare for the CCNP industry certification."
+        },
+        {
+          "id": "32536",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Advanced Software Modelling"
+        },
+        {
+          "id": "32209",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Advanced Topics in Computer Networks"
+        },
+        {
+          "id": "32550",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Advances in Requirements Engineering"
+        },
+        {
+          "id": "41004",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Unknow",
+          "name": "Analytics Capstone Project",
+          "Requisite": {
+            "#text": [
+              " (",
+              " Introduction to Data Analytics  AND",
+              " Project Management and the Professional  AND (90 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology  OR 90 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Diploma Information Technology Professional Practice  OR 90 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Bachelor of Laws  OR 90 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Bachelor of Arts International Studies  OR 90 credit points of completed study in  spk(s):",
+              "Bachelor of Mathematics and Computing Bachelor of Arts International Studies  OR 90 credit points of completed study in  spk(s):",
+              "Bachelor of Business Bachelor of Science Information Technology  OR 90 credit points of completed study in  spk(s):",
+              "Bachelor of Mathematics and Computing  OR 90 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Diploma Information Technology Professional Practice))"
+            ],
+            "a": [
+              "31250",
+              "31272",
+              "10148",
+              "10345",
+              "10245",
+              "10239",
+              "10224",
+              "10219",
+              "10158",
+              "10152"
+            ]
+          }
+        },
+        {
+          "id": "31243",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Analytics Capstone Project B",
+          "Requisite": {
+            "a": "41004",
+            "#text": " Analytics Capstone Project "
+          },
+          "p": "Spring session, City campus"
+        },
+        {
+          "id": "41889",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Application Development in the iOS Environment",
+          "Requisite": {
+            "a": [
+              "48023",
+              "31267"
+            ],
+            "#text": [
+              " Programming Fundamentals  OR",
+              "Programming Fundamentals "
+            ]
+          }
+        },
+        {
+          "id": "31927",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Application Development with .NET",
+          "Requisite": {
+            "a": [
+              "31267",
+              "31488",
+              "31508",
+              "48023"
+            ],
+            "#text": [
+              "Programming Fundamentals  OR",
+              "Programming Foundations  OR",
+              "Programming Fundamentals  OR ",
+              " Programming Fundamentals "
+            ]
+          }
+        },
+        {
+          "id": "41890",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Applying Network Security",
+          "Requisite": {
+            "#text": [
+              " ((",
+              "Network Security  OR ",
+              " Cyber Security) AND ",
+              " Routing and Internetworks)"
+            ],
+            "a": [
+              "31252",
+              "48730",
+              "31277"
+            ]
+          }
+        },
+        {
+          "id": "32558",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Business Intelligence",
+          "Requisite": {
+            "a": "32557",
+            "#text": " Enabling Enterprise Information Systems  "
+          }
+        },
+        {
+          "id": "32567",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Business Intelligence for Decision Support"
+        },
+        {
+          "id": "32568",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Business Intelligence Modelling and Analysis"
+        },
+        {
+          "id": "31245",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Business Process and IT Strategy",
+          "Requisite": {
+            "a": [
+              "31276",
+              "31257"
+            ],
+            "#text": [
+              " Networked Enterprise Architecture   OR  ",
+              " Information System Development Methodologies  "
+            ]
+          }
+        },
+        {
+          "id": "31269",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Business Requirements Modelling",
+          "Requisite": {
+            "a": [
+              "31266",
+              "31060",
+              "31472",
+              "31484",
+              "31414"
+            ],
+            "#text": [
+              " Introduction to Information Systems  OR",
+              "Information Systems Principles  OR",
+              "Introduction to Collaborative Systems  OR",
+              "Information Systems Foundations  OR",
+              "Information Systems "
+            ]
+          }
+        },
+        {
+          "id": "32559",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Business Systems Design",
+          "Requisite": {
+            "a": "32557",
+            "#text": " Enabling Enterprise Information Systems  "
+          }
+        },
+        {
+          "id": "31016",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Career Management for IT Professionals"
+        },
+        {
+          "id": "41001",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Cloud Computing and Software as a Service",
+          "Requisite": {
+            "a": [
+              "48440",
+              "31244",
+              "31281",
+              "31061",
+              "48024"
+            ],
+            "#text": [
+              " Software Engineering Practice  OR",
+              "Applications Programming  OR ",
+              " Systems Development Project  OR ",
+              " Database Principles  OR ",
+              " Applications Programming "
+            ]
+          }
+        },
+        {
+          "id": "42904",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Cloud Computing and Software as a Service"
+        },
+        {
+          "id": "41891",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Cloud Computing Infrastructure",
+          "Requisite": {
+            "a": [
+              "31270",
+              "41092"
+            ],
+            "#text": [
+              " Networking Essentials  OR ",
+              " Network Fundamentals "
+            ]
+          }
+        },
+        {
+          "id": "31247",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Collaborative Business Processes",
+          "Requisite": {
+            "a": "31266",
+            "#text": " Introduction to Information Systems "
+          }
+        },
+        {
+          "id": "32145",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Commercial Environment of IT"
+        },
+        {
+          "id": "31265",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Communication for IT Professionals"
+        },
+        {
+          "id": "32003",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Computer Game Design"
+        },
+        {
+          "id": "32501",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Computer Graphics"
+        },
+        {
+          "id": "31249",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Computer Graphics Rendering Techniques",
+          "Requisite": {
+            "a": [
+              "31264",
+              "31140"
+            ],
+            "#text": [
+              " Introduction to Computer Graphics  OR",
+              "Introduction to Computer Graphics "
+            ]
+          }
+        },
+        {
+          "id": "32210",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Computer Vision and Image Processing"
+        },
+        {
+          "id": "41078",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Computing Science Studio 1"
+        },
+        {
+          "id": "41079",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Computing Science Studio 2"
+        },
+        {
+          "id": "32702",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Contemporary Telecommunications"
+        },
+        {
+          "id": "32548",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Cyber Security Essentials",
+          "Requisite": {
+            "a": [
+              "32524",
+              "49202"
+            ],
+            "#text": [
+              " LANS and Routing  OR ",
+              " Communication Protocols "
+            ]
+          }
+        },
+        {
+          "id": "41077",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Data Driven and Intelligent Robotics"
+        },
+        {
+          "id": "32131",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Data Mining and Visualisation",
+          "Requisite": {
+            "a": "32130",
+            "#text": " Fundamentals of Data Analytics "
+          }
+        },
+        {
+          "id": "31251",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Data Structures and Algorithms",
+          "Requisite": {
+            "a": "48024",
+            "#text": " Applications Programming "
+          }
+        },
+        {
+          "id": "32146",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Data Visualisation and Visual Analytics",
+          "Requisite": {
+            "a": [
+              "31250",
+              "48024"
+            ],
+            "#text": [
+              " Introduction to Data Analytics   AND  ",
+              " Applications Programming "
+            ]
+          }
+        },
+        {
+          "id": "32606",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Database"
+        },
+        {
+          "id": "31271",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Database Fundamentals",
+          "Requisite": {
+            "a": [
+              "31267",
+              "48023",
+              "37171"
+            ],
+            "#text": [
+              "Programming Fundamentals  OR ",
+              " Programming Fundamentals  OR ",
+              " Programming for Informatics "
+            ]
+          }
+        },
+        {
+          "id": "31061",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Database Principles"
+        },
+        {
+          "id": "31253",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Database Programming",
+          "Requisite": {
+            "a": [
+              "31271",
+              "31061",
+              "31474",
+              "31487"
+            ],
+            "#text": [
+              " Database Fundamentals  OR ",
+              " Database Principles  OR",
+              "Database Fundamentals  OR",
+              "Database Management Systems "
+            ]
+          }
+        },
+        {
+          "id": "95566",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Digital Experience Design"
+        },
+        {
+          "id": "32309",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Digital Forensics",
+          "Requisite": {
+            "a": "32548",
+            "#text": " Cyber Security Essentials "
+          }
+        },
+        {
+          "id": "95569",
+          "cp": "12",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Digital Media Studio"
+        },
+        {
+          "id": "95564",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Digital Media Technologies"
+        },
+        {
+          "id": "32019",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Directed Study 1"
+        },
+        {
+          "id": "31008",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Directed Study 1"
+        },
+        {
+          "id": "32020",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Directed Study 2"
+        },
+        {
+          "id": "31009",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Directed Study 2"
+        },
+        {
+          "id": "32021",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Directed Study 3"
+        },
+        {
+          "id": "31010",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Directed Study 3"
+        },
+        {
+          "id": "31013",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Directed Study 4"
+        },
+        {
+          "id": "32022",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Directed Study 4"
+        },
+        {
+          "id": "42301",
+          "cp": "0",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Doctoral Research Innovation Output"
+        },
+        {
+          "id": "42300",
+          "cp": "0",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Doctoral Thesis: Applied Innovation"
+        },
+        {
+          "id": "31000",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "e-Business Trading"
+        },
+        {
+          "id": "31254",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "e-Commerce"
+        },
+        {
+          "id": "32133",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "e-Market Trading Technology"
+        },
+        {
+          "id": "32557",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Enabling Enterprise Information Systems"
+        },
+        {
+          "id": "41003",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Enterprise Architecture Practice",
+          "Requisite": {
+            "a": [
+              "48440",
+              "31257"
+            ],
+            "#text": [
+              " Software Engineering Practice   OR  ",
+              " Information System Development Methodologies  "
+            ]
+          }
+        },
+        {
+          "id": "32569",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Enterprise Business Requirements",
+          "Requisite": {
+            "a": "32557",
+            "#text": " Enabling Enterprise Information Systems  "
+          }
+        },
+        {
+          "id": "31100",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Enterprise Development with .NET",
+          "Requisite": {
+            "#text": [
+              " (",
+              " Application Development with .NET  AND (",
+              " Database Principles  OR",
+              " Database Fundamentals  OR",
+              " Database Fundamentals))"
+            ],
+            "a": [
+              "31927",
+              "31061",
+              "31271",
+              "31474"
+            ]
+          }
+        },
+        {
+          "id": "32570",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Enterprise Software Architecture and Middleware"
+        },
+        {
+          "id": "32571",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Enterprise Software Testing"
+        },
+        {
+          "id": "90001",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Exchange Elective 1 (Information Technology)"
+        },
+        {
+          "id": "90002",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Exchange Elective 2 (Information Technology)"
+        },
+        {
+          "id": "90003",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Exchange Elective 3 (Information Technology)"
+        },
+        {
+          "id": "90004",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Exchange Elective 4 (Information Technology)"
+        },
+        {
+          "id": "90005",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Exchange Elective 5 (Information Technology)"
+        },
+        {
+          "id": "90006",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Exchange Elective 6 (Information Technology)"
+        },
+        {
+          "id": "90007",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Exchange Elective 7 (Information Technology)"
+        },
+        {
+          "id": "90008",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Exchange Elective 8 (Information Technology)"
+        },
+        {
+          "id": "31255",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Finance and IT Professionals",
+          "Requisite": {
+            "a": "31266",
+            "#text": " Introduction to Information Systems "
+          }
+        },
+        {
+          "id": "32130",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Fundamentals of Data Analytics"
+        },
+        {
+          "id": "31260",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Fundamentals of Interaction Design"
+        },
+        {
+          "id": "42017",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Fundamentals of Interaction Design"
+        },
+        {
+          "id": "32555",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Fundamentals of Software Development",
+          "Requisite": {
+            "#text": [
+              " 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering Diploma Engineering Practice  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering Science  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering (Honours) Diploma Professional Engineering Practice  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering (Honours) "
+            ],
+            "a": [
+              "10061",
+              "10066",
+              "10067",
+              "09067",
+              "09066"
+            ]
+          }
+        },
+        {
+          "id": "42075",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Game Design Studio"
+        },
+        {
+          "id": "31102",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Game Design Studio 1",
+          "Requisite": {
+            "#text": [
+              " ((",
+              " Introduction to Computer Game Design  OR",
+              "Introduction to Computer Game Design) AND 78 credit points of completed study in",
+              "Bachelor of Science in Games Development)"
+            ],
+            "a": [
+              "31262",
+              "31002",
+              "10229"
+            ]
+          }
+        },
+        {
+          "id": "31103",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Game Design Studio 2",
+          "Requisite": {
+            "a": [
+              "31102",
+              "10229"
+            ],
+            "#text": [
+              " Game Design Studio 1  AND 78 credit points of completed study in",
+              "Bachelor of Science in Games Development "
+            ]
+          }
+        },
+        {
+          "id": "32004",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Game Programming"
+        },
+        {
+          "id": "31248",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Games and Graphics Project"
+        },
+        {
+          "id": "32531",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Global Information Systems",
+          "Requisite": {
+            "a": "32557",
+            "#text": " Enabling Enterprise Information Systems  "
+          }
+        },
+        {
+          "id": "42072",
+          "cp": "12",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Graduate Research Project (12cp in one session)"
+        },
+        {
+          "id": "42071",
+          "cp": "24",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Graduate Research Project (24cp in one session)"
+        },
+        {
+          "id": "42073",
+          "cp": "12",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Graduate Research Project 24cp (Part 1 of 2) (2 x 12cp)"
+        },
+        {
+          "id": "42074",
+          "cp": "12",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Graduate Research Project 24cp (Part 2 of 2) (2 x 12cp)"
+        },
+        {
+          "id": "31482",
+          "cp": "12",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Honours Project",
+          "Requisite": {
+            "a": "32931",
+            "#text": " Technology Research Methods "
+          }
+        },
+        {
+          "id": "41020",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Human-centred Design Methods"
+        },
+        {
+          "id": "32405",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Human-centred Design Methods"
+        },
+        {
+          "id": "31256",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Image Processing and Pattern Recognition",
+          "Requisite": {
+            "a": "48024",
+            "#text": " Applications Programming  "
+          }
+        },
+        {
+          "id": "41015",
+          "cp": "3",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Industry Experience 1",
+          "Requisite": {
+            "#text": [
+              " 24 credit points of completed study in  spk(s):",
+              "Bachelor of Information Technology "
+            ],
+            "a": "10143"
+          }
+        },
+        {
+          "id": "41016",
+          "cp": "3",
+          "time": "Autumn",
+          "level": "Unknow",
+          "name": "Industry Experience 2",
+          "Requisite": {
+            "#text": [
+              " 92 credit points of completed study in  spk(s):",
+              "Bachelor of Information Technology "
+            ],
+            "a": "10143"
+          }
+        },
+        {
+          "id": "32040",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Industry Project",
+          "Requisite": {
+            "a": "32144",
+            "#text": " Technology Research Preparation "
+          }
+        },
+        {
+          "id": "31491",
+          "cp": "9",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Industry Project 1",
+          "Requisite": {
+            "#text": [
+              " 24 credit points of completed study in  spk(s):",
+              "Bachelor of Information Technology "
+            ],
+            "a": "10143"
+          }
+        },
+        {
+          "id": "31492",
+          "cp": "9",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Industry Project 2",
+          "Requisite": {
+            "#text": [
+              " 92 credit points of completed study in  spk(s):",
+              "Bachelor of Information Technology "
+            ],
+            "a": "10143"
+          }
+        },
+        {
+          "id": "31489",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Industry Study 1",
+          "Requisite": {
+            "#text": [
+              " 24 credit points of completed study in ",
+              "Bachelor of Information Technology "
+            ],
+            "a": "10143"
+          }
+        },
+        {
+          "id": "31490",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Industry Study 2",
+          "Requisite": {
+            "#text": [
+              " 92 credit points of completed study in",
+              "Bachelor of Information Technology "
+            ],
+            "a": "10143"
+          }
+        },
+        {
+          "id": "31257",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Information System Development Methodologies",
+          "Requisite": {
+            "a": "31269",
+            "#text": " Business Requirements Modelling "
+          }
+        },
+        {
+          "id": "31735",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Information Systems and Organisation Development",
+          "Requisite": {
+            "#text": [
+              " ( 36 credit points of completed study in  any course   OR ((",
+              "Information Systems Foundations  OR ",
+              " Introduction to Information Systems  OR",
+              "Information Systems  OR",
+              "Information Systems Principles  OR",
+              "Introduction to Collaborative Systems)))"
+            ],
+            "a": [
+              "31484",
+              "31266",
+              "31414",
+              "31060",
+              "31472"
+            ]
+          }
+        },
+        {
+          "id": "32560",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Information Systems Architecture Design",
+          "Requisite": {
+            "a": "32557",
+            "#text": " Enabling Enterprise Information Systems  "
+          }
+        },
+        {
+          "id": "32208",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Information Systems Strategy"
+        },
+        {
+          "id": "32703",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Information Technology Strategy"
+        },
+        {
+          "id": "42891",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Infrastructure for Cloud Computing",
+          "Requisite": {
+            "a": [
+              "32524",
+              "48740"
+            ],
+            "#text": [
+              " LANS and Routing  OR ",
+              " Communications Networks "
+            ]
+          }
+        },
+        {
+          "id": "42079",
+          "cp": "24",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Innovation Studio"
+        },
+        {
+          "id": "31258",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Innovations for Global Relationship Management",
+          "Requisite": {
+            "a": [
+              "31266",
+              "31269",
+              "31475"
+            ],
+            "#text": [
+              " Introduction to Information Systems  OR ",
+              " Business Requirements Modelling  OR",
+              "Requirements Engineering "
+            ]
+          }
+        },
+        {
+          "id": "41021",
+          "cp": "12",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Interaction Design Studio",
+          "Requisite": {
+            "a": [
+              "41019",
+              "31260",
+              "31080",
+              "31272"
+            ],
+            "#text": [
+              " Prototyping Physical Interaction  AND ",
+              " Fundamentals of Interaction Design  AND ",
+              " Interactive Media  AND ",
+              " Project Management and the Professional "
+            ]
+          }
+        },
+        {
+          "id": "32029",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Interactive Arts"
+        },
+        {
+          "id": "32027",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Interactive Media"
+        },
+        {
+          "id": "31080",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Interactive Media",
+          "Requisite": {
+            "a": "48023",
+            "#text": " Programming Fundamentals "
+          }
+        },
+        {
+          "id": "32516",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Internet Programming"
+        },
+        {
+          "id": "32527",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Internetwork Design",
+          "Requisite": {
+            "a": "32524",
+            "#text": " LANS and Routing "
+          }
+        },
+        {
+          "id": "31261",
+          "cp": "6",
+          "time": "Summer",
+          "level": "Undergraduate",
+          "name": "Internetworking Project",
+          "Requisite": {
+            "a": "31272",
+            "#text": " Project Management and the Professional "
+          }
+        },
+        {
+          "id": "31262",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Introduction to Computer Game Design",
+          "Requisite": {
+            "a": [
+              "31080",
+              "31263"
+            ],
+            "#text": [
+              " Interactive Media  OR ",
+              " Introduction to Computer Game Programming "
+            ]
+          }
+        },
+        {
+          "id": "31263",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Introduction to Computer Game Programming",
+          "Requisite": {
+            "a": "48024",
+            "#text": " Applications Programming "
+          }
+        },
+        {
+          "id": "31264",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Introduction to Computer Graphics",
+          "Requisite": {
+            "a": [
+              "31080",
+              "31263"
+            ],
+            "#text": [
+              " Interactive Media  OR ",
+              " Introduction to Computer Game Programming "
+            ]
+          }
+        },
+        {
+          "id": "31250",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Introduction to Data Analytics"
+        },
+        {
+          "id": "31266",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Introduction to Information Systems"
+        },
+        {
+          "id": "32147",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Introduction to IT Management"
+        },
+        {
+          "id": "42889",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "iOS Application Development",
+          "Requisite": {
+            "a": [
+              "48023",
+              "32555"
+            ],
+            "#text": [
+              " Programming Fundamentals  OR ",
+              " Fundamentals of Software Development "
+            ]
+          }
+        },
+        {
+          "id": "32990",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "IT Contracts and Outsourcing",
+          "Requisite": {
+            "a": "32557",
+            "#text": " Enabling Enterprise Information Systems  "
+          }
+        },
+        {
+          "id": "31137",
+          "cp": "0",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "IT Experience 1"
+        },
+        {
+          "id": "31139",
+          "cp": "0",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "IT Experience 2",
+          "Requisite": {
+            "a": [
+              "31136",
+              "31137"
+            ],
+            "#text": [
+              " Preparation for and Review of IT Experience  AND ",
+              " IT Experience 1 "
+            ]
+          }
+        },
+        {
+          "id": "41065",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "IT Experience Reflection",
+          "Requisite": {
+            "a": [
+              "31016",
+              "41061",
+              "41062",
+              "41071",
+              "41072",
+              "41063",
+              "41064",
+              "41073",
+              "41074"
+            ],
+            "#text": [
+              " Career Management for IT Professionals  AND ",
+              " IT Professional Experience 1  AND ",
+              " IT Professional Experience 2  AND ",
+              " Work Integrated Learning 1  AND ",
+              " Work Integrated Learning 2  AND",
+              " IT Professional Experience 3  AND",
+              " IT Professional Experience 4  AND",
+              " Work Integrated Learning 3  AND",
+              " Work Integrated Learning 4 "
+            ]
+          }
+        },
+        {
+          "id": "42286",
+          "cp": "24",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "IT Graduate Project (24cp in one session)",
+          "Requisite": {
+            "a": [
+              "32144",
+              "32931"
+            ],
+            "#text": [
+              " Technology Research Preparation  AND ",
+              " Technology Research Methods "
+            ]
+          }
+        },
+        {
+          "id": "42282",
+          "cp": "12",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "IT Graduate Project 24cp (Part 1 of 2) (2x12cp)",
+          "Requisite": {
+            "a": [
+              "32144",
+              "32931"
+            ],
+            "#text": [
+              " Technology Research Preparation  AND ",
+              " Technology Research Methods "
+            ]
+          }
+        },
+        {
+          "id": "42283",
+          "cp": "12",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "IT Graduate Project 24cp (Part 2 of 2) (2x12cp)",
+          "Requisite": {
+            "a": [
+              "32144",
+              "32931"
+            ],
+            "#text": [
+              " Technology Research Preparation  AND ",
+              " Technology Research Methods "
+            ]
+          }
+        },
+        {
+          "id": "42033",
+          "cp": "12",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "IT Graduate Project 36cp (Part 1 of 2) (12cp + 24cp)",
+          "Requisite": {
+            "a": "32144",
+            "#text": " Technology Research Preparation "
+          }
+        },
+        {
+          "id": "42284",
+          "cp": "18",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "IT Graduate Project 36cp (Part 1 of 2) (2x18cp)",
+          "Requisite": {
+            "a": [
+              "32144",
+              "32931"
+            ],
+            "#text": [
+              " Technology Research Preparation  AND ",
+              " Technology Research Methods "
+            ]
+          }
+        },
+        {
+          "id": "42034",
+          "cp": "24",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "IT Graduate Project 36cp (Part 2 of 2) (12cp + 24cp)",
+          "Requisite": {
+            "a": "42033",
+            "#text": " IT Graduate Project 36cp (Part 1 of 2) (12cp + 24cp) "
+          }
+        },
+        {
+          "id": "42285",
+          "cp": "18",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "IT Graduate Project 36cp (Part 2 of 2) (2x18cp)",
+          "Requisite": {
+            "a": [
+              "32144",
+              "32931"
+            ],
+            "#text": [
+              " Technology Research Preparation  AND ",
+              " Technology Research Methods "
+            ]
+          }
+        },
+        {
+          "id": "31097",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "IT Operations Management",
+          "Requisite": {
+            "#text": [
+              " ((",
+              " Networking Essentials  OR ",
+              " Web Systems  OR ",
+              " Network Fundamentals) AND ",
+              " Introduction to Information Systems)"
+            ],
+            "a": [
+              "31270",
+              "31268",
+              "41092",
+              "31266"
+            ]
+          }
+        },
+        {
+          "id": "32563",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "IT Professional and Society"
+        },
+        {
+          "id": "41061",
+          "cp": "3",
+          "time": "Summer",
+          "level": "Undergraduate",
+          "name": "IT Professional Experience 1",
+          "Requisite": {
+            "a": [
+              "31016",
+              "41062",
+              "41071",
+              "41072",
+              "10345"
+            ],
+            "#text": [
+              " Career Management for IT Professionals  AND",
+              " IT Professional Experience 2  AND",
+              " Work Integrated Learning 1  AND",
+              " Work Integrated Learning 2  AND  72 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Diploma Information Technology Professional Practice  "
+            ]
+          }
+        },
+        {
+          "id": "41062",
+          "cp": "3",
+          "time": "Summer",
+          "level": "Undergraduate",
+          "name": "IT Professional Experience 2",
+          "Requisite": {
+            "a": [
+              "31016",
+              "41061",
+              "41071",
+              "41072",
+              "10345"
+            ],
+            "#text": [
+              " Career Management for IT Professionals  AND",
+              " IT Professional Experience 1  AND",
+              " Work Integrated Learning 1  AND",
+              " Work Integrated Learning 2  AND  72 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Diploma Information Technology Professional Practice  "
+            ]
+          }
+        },
+        {
+          "id": "41063",
+          "cp": "3",
+          "time": "Summer",
+          "level": "Undergraduate",
+          "name": "IT Professional Experience 3",
+          "Requisite": {
+            "a": [
+              "41074",
+              "31138",
+              "31016",
+              "41061",
+              "41062",
+              "41071",
+              "41072",
+              "41064",
+              "41073"
+            ],
+            "#text": [
+              " Work Integrated Learning 4  AND",
+              " Review of IT Experience  AND ",
+              " Career Management for IT Professionals  AND ",
+              " IT Professional Experience 1  AND ",
+              " IT Professional Experience 2  AND ",
+              " Work Integrated Learning 1  AND ",
+              " Work Integrated Learning 2  AND",
+              " IT Professional Experience 4  AND",
+              " Work Integrated Learning 3 "
+            ]
+          }
+        },
+        {
+          "id": "41064",
+          "cp": "3",
+          "time": "Summer",
+          "level": "Undergraduate",
+          "name": "IT Professional Experience 4",
+          "Requisite": {
+            "a": [
+              "41074",
+              "31138",
+              "31016",
+              "41061",
+              "41062",
+              "41071",
+              "41072",
+              "41063",
+              "41073"
+            ],
+            "#text": [
+              " Work Integrated Learning 4  AND",
+              " Review of IT Experience  AND ",
+              " Career Management for IT Professionals  AND ",
+              " IT Professional Experience 1  AND ",
+              " IT Professional Experience 2  AND ",
+              " Work Integrated Learning 1  AND ",
+              " Work Integrated Learning 2  AND",
+              " IT Professional Experience 3  AND",
+              " Work Integrated Learning 3 "
+            ]
+          }
+        },
+        {
+          "id": "32524",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "LANS and Routing"
+        },
+        {
+          "id": "32553",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Leadership and People Management"
+        },
+        {
+          "id": "32561",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Leading Organisational Change"
+        },
+        {
+          "id": "32930",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Management Research Methods",
+          "Requisite": {
+            "#text": [
+              " 48 credit points of completed study in  spk(s):",
+              "Master of Business and Technology "
+            ],
+            "a": "04161"
+          }
+        },
+        {
+          "id": "32932",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Management Research Project",
+          "Requisite": {
+            "a": "32930",
+            "#text": " Management Research Methods "
+          }
+        },
+        {
+          "id": "31096",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Managing Client/Vendor Relations",
+          "Requisite": {
+            "a": [
+              "31476",
+              "31485",
+              "31269",
+              "31475",
+              "31424",
+              "31281"
+            ],
+            "#text": [
+              "Systems Development Project  OR",
+              "Systems Development  OR ",
+              " Business Requirements Modelling  OR",
+              "Requirements Engineering  OR",
+              "Systems Modelling  OR ",
+              " Systems Development Project "
+            ]
+          }
+        },
+        {
+          "id": "42905",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Marketing Technology"
+        },
+        {
+          "id": "42302",
+          "cp": "0",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Master of Applied Innovation Thesis"
+        },
+        {
+          "id": "42303",
+          "cp": "0",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Master Research Innovation Output"
+        },
+        {
+          "id": "31285",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Mobile Applications Development",
+          "Requisite": {
+            "a": [
+              "31244",
+              "31469",
+              "48024"
+            ],
+            "#text": [
+              "Applications Programming  OR",
+              "Object-oriented Design  OR ",
+              " Applications Programming "
+            ]
+          }
+        },
+        {
+          "id": "32001",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Mobile Commerce Technologies"
+        },
+        {
+          "id": "32118",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Mobile Communications and Computing"
+        },
+        {
+          "id": "31091",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Mobile Computing Project",
+          "Requisite": {
+            "#text": [
+              " ((",
+              "Mobile IP and Wireless LANs  OR",
+              "Mobile Networks) AND",
+              "Mobile Programming)"
+            ],
+            "a": [
+              "31089",
+              "31088",
+              "31090"
+            ]
+          }
+        },
+        {
+          "id": "31275",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Mobile Networking",
+          "Requisite": {
+            "a": [
+              "31270",
+              "31467",
+              "31486",
+              "31516",
+              "48720",
+              "41092"
+            ],
+            "#text": [
+              " Networking Essentials  OR",
+              "Networking 1  OR",
+              "Data Communications  OR",
+              "Networking Fundamentals  OR",
+              "Network Fundamentals  OR ",
+              " Network Fundamentals "
+            ]
+          }
+        },
+        {
+          "id": "32011",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Unknow",
+          "name": "Multilayer Switched Networks",
+          "Requisite": {
+            "a": [
+              "32524",
+              "32521"
+            ],
+            "#text": [
+              " LANS and Routing  AND",
+              " WANS and VLANS "
+            ]
+          }
+        },
+        {
+          "id": "31246",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Network Design",
+          "Requisite": {
+            "a": [
+              "31277",
+              "31471"
+            ],
+            "#text": [
+              " Routing and Internetworks  OR",
+              "Networking 2 "
+            ]
+          }
+        },
+        {
+          "id": "32528",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Network Management",
+          "Requisite": {
+            "a": [
+              "32524",
+              "49202"
+            ],
+            "#text": [
+              " LANS and Routing  OR ",
+              " Communication Protocols "
+            ]
+          }
+        },
+        {
+          "id": "31274",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Network Management",
+          "Requisite": {
+            "a": [
+              "31277",
+              "31471"
+            ],
+            "#text": [
+              " Routing and Internetworks  OR",
+              "Networking 2 "
+            ]
+          }
+        },
+        {
+          "id": "32310",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Network Security Appliances",
+          "Requisite": {
+            "a": "32524",
+            "#text": " LANS and Routing "
+          }
+        },
+        {
+          "id": "31338",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Network Servers",
+          "Requisite": {
+            "#text": [
+              " (",
+              " Web Systems  AND (",
+              " Networking Essentials  OR",
+              "Network Fundamentals  OR ",
+              " Strategic e-Business Technologies  OR ",
+              " Network Fundamentals))"
+            ],
+            "a": [
+              "31268",
+              "31270",
+              "48720",
+              "48721",
+              "41092"
+            ]
+          }
+        },
+        {
+          "id": "31276",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Networked Enterprise Architecture",
+          "Requisite": {
+            "a": [
+              "31269",
+              "31247"
+            ],
+            "#text": [
+              " Business Requirements Modelling   OR  ",
+              " Collaborative Business Processes  "
+            ]
+          }
+        },
+        {
+          "id": "31950",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Networked Enterprise Design",
+          "Requisite": {
+            "a": [
+              "31060",
+              "31472",
+              "31484",
+              "31749",
+              "31414",
+              "31266"
+            ],
+            "#text": [
+              "Information Systems Principles  OR",
+              "Introduction to Collaborative Systems  OR",
+              "Information Systems Foundations  OR",
+              "Internet Commerce  OR",
+              "Information Systems  OR ",
+              " Introduction to Information Systems "
+            ]
+          }
+        },
+        {
+          "id": "31270",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Networking Essentials"
+        },
+        {
+          "id": "31075",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Object-relational Databases",
+          "Requisite": {
+            "a": "31271",
+            "#text": " Database Fundamentals "
+          }
+        },
+        {
+          "id": "42901",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Object-Relational Databases",
+          "Requisite": {
+            "a": [
+              "32606",
+              "31271"
+            ],
+            "#text": [
+              " Database  OR ",
+              " Database Fundamentals "
+            ]
+          }
+        },
+        {
+          "id": "42009",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Parallel and Multicore Computing",
+          "Requisite": {
+            "a": "32555",
+            "#text": " Fundamentals of Software Development "
+          }
+        },
+        {
+          "id": "32995",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "People Management for IT"
+        },
+        {
+          "id": "32903",
+          "cp": "0",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "PhD Thesis: Analytics"
+        },
+        {
+          "id": "33875",
+          "cp": "0",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "PhD Thesis: Computer Systems"
+        },
+        {
+          "id": "32986",
+          "cp": "0",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "PhD Thesis: Information Systems"
+        },
+        {
+          "id": "33874",
+          "cp": "0",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "PhD Thesis: Software Engineering"
+        },
+        {
+          "id": "31136",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Preparation for and Review of IT Experience"
+        },
+        {
+          "id": "32510",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Principles of Object-oriented Programming in C++",
+          "Requisite": {
+            "a": "32106",
+            "#text": "Agile Method Engineering  OR CBK90464 18 cp Animation Option Subject Bank Choice Block "
+          }
+        },
+        {
+          "id": "41075",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Principles of Programming Languages"
+        },
+        {
+          "id": "31104",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Programming for Special Effects",
+          "Requisite": {
+            "a": [
+              "31264",
+              "31140"
+            ],
+            "#text": [
+              " Introduction to Computer Graphics  OR",
+              "Introduction to Computer Graphics "
+            ]
+          }
+        },
+        {
+          "id": "31748",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "Programming on the Internet",
+          "Requisite": {
+            "#text": [
+              " (",
+              " Web Systems  AND (",
+              "Programming Fundamentals  OR",
+              "Object-oriented Programming  OR",
+              "Programming Foundations  OR",
+              "Programming Fundamentals  OR ",
+              " Programming Fundamentals))"
+            ],
+            "a": [
+              "31268",
+              "31267",
+              "31465",
+              "31488",
+              "31508",
+              "48023"
+            ]
+          }
+        },
+        {
+          "id": "31029",
+          "cp": "4",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Project"
+        },
+        {
+          "id": "31030",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Project",
+          "p": "Requisite elaboration/waiver: Faculty approval required to enrol - student(s) must define a topic, find a supervisor and register the project before being granted permission to enrol in this subject."
+        },
+        {
+          "id": "31352",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Project"
+        },
+        {
+          "id": "31028",
+          "cp": "2",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Project"
+        },
+        {
+          "id": "32541",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Project Management"
+        },
+        {
+          "id": "31272",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Project Management and the Professional",
+          "Requisite": {
+            "#text": [
+              " (",
+              " Business Requirements Modelling  AND ",
+              " Introduction to Information Systems  AND (",
+              " Communication for IT Professionals  OR ",
+              " Engineering Communication) AND (78 credit points of completed study in  spk(s):",
+              "Bachelor of Science Games Development  OR ",
+              " Review of IT Experience  OR 72 credit points of completed study in  spk(s):",
+              "Bachelor of Information Technology  OR 78 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology  OR 78 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Diploma Information Technology Professional Practice  OR 78 credit points of completed study in  spk(s):",
+              "Bachelor of Business Bachelor of Science Information Technology  OR 78 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Bachelor of Arts International Studies  OR 78 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Bachelor of Laws  OR 78 credit points of completed study in  spk(s):",
+              "Bachelor of Mathematics and Computing  OR 78 credit points of completed study in  spk(s):",
+              "Bachelor of Mathematics and Computing Bachelor of Arts International Studies  OR 78 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Bachelor of Creative Intelligence and Innovation  OR 78 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Diploma Information Technology Professional Practice))"
+            ],
+            "a": [
+              "31269",
+              "31266",
+              "31265",
+              "48230",
+              "10229",
+              "31138",
+              "10143",
+              "10148",
+              "10152",
+              "10219",
+              "10239",
+              "10245",
+              "10158",
+              "10224",
+              "10327",
+              "10345"
+            ]
+          }
+        },
+        {
+          "id": "41019",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Prototyping Physical Interaction",
+          "Requisite": {
+            "a": [
+              "31260",
+              "48023"
+            ],
+            "#text": [
+              " Fundamentals of Interaction Design  AND ",
+              " Programming Fundamentals "
+            ]
+          }
+        },
+        {
+          "id": "42070",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Prototyping Physical Interaction"
+        },
+        {
+          "id": "41076",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Undergraduate",
+          "name": "Quantum Computing"
+        },
+        {
+          "id": "32902",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Recent Advances in Information Systems"
+        },
+        {
+          "id": "32039",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Recent Advances in Software Engineering"
+        },
+        {
+          "id": "32572",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Reflective Practice in Information Technology",
+          "Requisite": {
+            "a": "32144",
+            "#text": " Technology Research Preparation "
+          }
+        },
+        {
+          "id": "32933",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Research Project",
+          "Requisite": {
+            "a": "32144",
+            "#text": " Technology Research Preparation "
+          }
+        },
+        {
+          "id": "32934",
+          "cp": "12",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Research Project",
+          "Requisite": {
+            "a": "32931",
+            "#text": " Technology Research Methods "
+          }
+        },
+        {
+          "id": "31138",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Review of IT Experience",
+          "Requisite": {
+            "a": [
+              "31136",
+              "31137"
+            ],
+            "#text": [
+              " Preparation for and Review of IT Experience  AND ",
+              " IT Experience 1 "
+            ]
+          }
+        },
+        {
+          "id": "31277",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Routing and Internetworks",
+          "Requisite": {
+            "a": [
+              "31270",
+              "41092"
+            ],
+            "#text": [
+              " Networking Essentials  OR ",
+              " Network Fundamentals "
+            ]
+          }
+        },
+        {
+          "id": "42077",
+          "cp": "3",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Short Course Module A"
+        },
+        {
+          "id": "42078",
+          "cp": "3",
+          "time": "Unknow",
+          "level": "Unknow",
+          "name": "Short Course Module B"
+        },
+        {
+          "id": "42913",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Unknow",
+          "name": "Social and Information Network Analysis",
+          "Requisite": {
+            "#text": [
+              " 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering (Honours) Diploma Professional Engineering Practice  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering (Honours)  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Diploma Information Technology Professional Practice  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering Diploma Engineering Practice  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering Science  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Engineering  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Computing Science (Honours)  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Business Bachelor of Science Information Technology  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Bachelor of Arts International Studies  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Bachelor of Laws  OR 120 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Bachelor of Creative Intelligence and Innovation "
+            ],
+            "a": [
+              "09067",
+              "09066",
+              "10148",
+              "10345",
+              "10061",
+              "10066",
+              "10067",
+              "09119",
+              "10219",
+              "10239",
+              "10245",
+              "10327"
+            ]
+          }
+        },
+        {
+          "id": "41113",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Software Development Studio 1",
+          "Requisite": {
+            "a": "48023",
+            "#text": " Programming Fundamentals "
+          }
+        },
+        {
+          "id": "41114",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Unknow",
+          "name": "Software Development Studio 2",
+          "Requisite": {
+            "a": "41113",
+            "#text": " Software Development Studio 1 "
+          }
+        },
+        {
+          "id": "32989",
+          "cp": "12",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Software Project"
+        },
+        {
+          "id": "95563",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Storytelling and Sense-making Studio"
+        },
+        {
+          "id": "32562",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Strategic Business Management"
+        },
+        {
+          "id": "42016",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Unknow",
+          "name": "Strategic Finance"
+        },
+        {
+          "id": "31280",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Strategic IT Project",
+          "Requisite": {
+            "a": "31272",
+            "#text": " Project Management and the Professional "
+          }
+        },
+        {
+          "id": "32005",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Strategic Leadership for Innovation"
+        },
+        {
+          "id": "42900",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Sustainability and Information Systems",
+          "Requisite": {
+            "a": "32557",
+            "#text": " Enabling Enterprise Information Systems  "
+          }
+        },
+        {
+          "id": "32520",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Systems Administration",
+          "Requisite": {
+            "a": "32547",
+            "#text": " UNIX Systems Programming "
+          }
+        },
+        {
+          "id": "31281",
+          "cp": "12",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Systems Development Project",
+          "Requisite": {
+            "#text": [
+              " (",
+              "Applications Programming  OR",
+              "Object-oriented Design  OR ",
+              " Applications Programming) AND (",
+              " Database Principles  OR",
+              "Database Fundamentals  OR ",
+              " Database Fundamentals) AND (",
+              " Business Requirements Modelling  OR",
+              "Introduction to Collaborative Systems  OR",
+              "Requirements Engineering  OR",
+              "Systems Modelling)"
+            ],
+            "a": [
+              "31244",
+              "31469",
+              "48024",
+              "31061",
+              "31474",
+              "31271",
+              "31269",
+              "31472",
+              "31475",
+              "31424"
+            ]
+          }
+        },
+        {
+          "id": "32603",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Postgraduate",
+          "name": "Systems Quality Management"
+        },
+        {
+          "id": "31282",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Systems Testing and Quality Management",
+          "Requisite": {
+            "a": "31266",
+            "#text": " Introduction to Information Systems  "
+          }
+        },
+        {
+          "id": "32931",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Technology Research Methods",
+          "Requisite": {
+            "a": "32144",
+            "#text": " Technology Research Preparation  "
+          }
+        },
+        {
+          "id": "32144",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Technology Research Preparation"
+        },
+        {
+          "id": "41080",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Theory of Computing Science",
+          "Requisite": {
+            "a": [
+              "37181",
+              "48024"
+            ],
+            "#text": [
+              " Discrete Mathematics  AND ",
+              " Applications Programming "
+            ]
+          }
+        },
+        {
+          "id": "31676",
+          "cp": "0",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Thesis (Analytics)"
+        },
+        {
+          "id": "31675",
+          "cp": "0",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "Thesis (Computing Science)"
+        },
+        {
+          "id": "32547",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Postgraduate",
+          "name": "UNIX Systems Programming"
+        },
+        {
+          "id": "31283",
+          "cp": "6",
+          "time": "Autumn",
+          "level": "Undergraduate",
+          "name": "WANs and Virtual LANs",
+          "Requisite": {
+            "a": [
+              "31277",
+              "31471"
+            ],
+            "#text": [
+              " Routing and Internetworks  OR",
+              "Networking 2 "
+            ]
+          }
+        },
+        {
+          "id": "32521",
+          "cp": "6",
+          "time": "Spring, Autumn",
+          "level": "Unknow",
+          "name": "WANS and VLANS",
+          "Requisite": {
+            "a": [
+              "32524",
+              "31277",
+              "31471"
+            ],
+            "#text": [
+              " LANS and Routing OR ",
+              " Routing and Internetworks  OR",
+              "Networking 2 "
+            ]
+          }
+        },
+        {
+          "id": "31284",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Web Services Development",
+          "Requisite": {
+            "#text": [
+              " (",
+              "Programming Fundamentals  OR",
+              "Object-oriented Programming  OR ",
+              " Programming Fundamentals) AND (",
+              " Web Systems  OR",
+              "Principles of Distributed Computing)"
+            ],
+            "a": [
+              "31267",
+              "31465",
+              "48023",
+              "31268",
+              "31466"
+            ]
+          }
+        },
+        {
+          "id": "31268",
+          "cp": "6",
+          "time": "Spring",
+          "level": "Undergraduate",
+          "name": "Web Systems"
+        },
+        {
+          "id": "32010",
+          "cp": "6",
+          "time": "Unknow",
+          "level": "Postgraduate",
+          "name": "Wide Area Network Implementation",
+          "Requisite": {
+            "a": "32521",
+            "#text": " WANS and VLANS "
+          }
+        },
+        {
+          "id": "41071",
+          "cp": "6",
+          "time": "Summer",
+          "level": "Undergraduate",
+          "name": "Work Integrated Learning 1",
+          "Requisite": {
+            "a": [
+              "31016",
+              "41061",
+              "41062",
+              "41072",
+              "10345"
+            ],
+            "#text": [
+              " Career Management for IT Professionals  AND",
+              " IT Professional Experience 1  AND",
+              " IT Professional Experience 2  AND",
+              " Work Integrated Learning 2  AND  72 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Diploma Information Technology Professional Practice  "
+            ]
+          }
+        },
+        {
+          "id": "41072",
+          "cp": "6",
+          "time": [
+            "Summer",
+            "Spring, Autumn"
+          ],
+          "level": "Unknow",
+          "name": "Work Integrated Learning 2",
+          "Requisite": {
+            "a": [
+              "31016",
+              "41061",
+              "41062",
+              "41071",
+              "10345"
+            ],
+            "#text": [
+              " Career Management for IT Professionals  AND",
+              " IT Professional Experience 1  AND",
+              " IT Professional Experience 2  AND",
+              " Work Integrated Learning 1  AND  72 credit points of completed study in  spk(s):",
+              "Bachelor of Science Information Technology Diploma Information Technology Professional Practice  "
+            ]
+          }
+        },
+        {
+          "id": "41073",
+          "cp": "6",
+          "time": "Summer",
+          "level": "Undergraduate",
+          "name": "Work Integrated Learning 3",
+          "Requisite": {
+            "a": [
+              "41074",
+              "31138",
+              "31016",
+              "41061",
+              "41062",
+              "41071",
+              "41072",
+              "41063",
+              "41064"
+            ],
+            "#text": [
+              " Work Integrated Learning 4  AND",
+              " Review of IT Experience  AND ",
+              " Career Management for IT Professionals  AND ",
+              " IT Professional Experience 1  AND ",
+              " IT Professional Experience 2  AND ",
+              " Work Integrated Learning 1  AND ",
+              " Work Integrated Learning 2  AND",
+              " IT Professional Experience 3  AND",
+              " IT Professional Experience 4 "
+            ]
+          }
+        },
+        {
+          "id": "41074",
+          "cp": "6",
+          "time": "Summer",
+          "level": "Undergraduate",
+          "name": "Work Integrated Learning 4",
+          "Requisite": {
+            "a": [
+              "41073",
+              "31138",
+              "31016",
+              "41061",
+              "41062",
+              "41071",
+              "41072",
+              "41063",
+              "41064"
+            ],
+            "#text": [
+              " Work Integrated Learning 3  AND",
+              " Review of IT Experience  AND ",
+              " Career Management for IT Professionals  AND ",
+              " IT Professional Experience 1  AND ",
+              " IT Professional Experience 2  AND ",
+              " Work Integrated Learning 1  AND ",
+              " Work Integrated Learning 2  AND",
+              " IT Professional Experience 3  AND",
+              " IT Professional Experience 4 "
+            ]
+          }
+        }
+      ]
