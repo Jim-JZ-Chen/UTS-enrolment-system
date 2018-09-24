@@ -22,6 +22,11 @@ html, body{
     margin: 0px 10px;
 }
 
+#linkShare
+{
+    float: right;
+}
+
 /***************************** Course Pool *****************************/
 #coursePool
 {

@@ -2,7 +2,7 @@ var ajax = new JimAjax();
 var courses;
 var highLightedCourses = [];
 
-ajax.get("./UTScourseDetail_lite.json", function()
+ajax.get("./UTS_data/UTScourseDetail_lite.json", function()
 {
 
 	courses = ajax.getJson();

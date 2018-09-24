@@ -1,97 +1,21 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link type="text/css" rel="stylesheet" href="./97-MSA.css">
-    <link type="text/css" rel="stylesheet" href="./StudyPlanDtls20.css">
-    <link type="text/css" rel="stylesheet" href="./sandbox.css" >
-    <link type="text/css" rel="stylesheet" href="./jquery-ui.css">
-    <title>
-        My Student Admin - C10345 Bachelor of Science in Information Technology Diploma IT Professional Practice - Study Plan Details - My Student Admin (Enrolment)
-    </title>
-    <link rel="stylesheet" href="./Treant.css">
+
+    <link type="text/css" rel="stylesheet" href="./css_library/97-MSA.css">
+    <link type="text/css" rel="stylesheet" href="./css_library/StudyPlanDtls20.css">
+    <link type="text/css" rel="stylesheet" href="./css_library/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="./css_library/Treant.css">
+    <link type="text/css" rel="stylesheet" href="sandbox.css" >
+    <title>SandBox</title>
+    
 </head>
 
 <body>
-    <script src="./jquery-1.12.4.js"></script>
-    <script src="./jquery-ui.js"></script>
-    <script src="jquery.ui.touch-punch.min.js"></script>
-
-<script>
-    $( function() {
-        $(".draggable").draggable({ 
-            revert: "invalid", 
-            appendTo : "body",
-            start: function(event, ui ) 
-            {
-
-            }
-        });
-        
-        $( ".droppable" ).droppable({
-            classes: {
-                "ui-droppable-active": "ui-state-active",
-                "ui-droppable-hover": "ui-state-hover"
-            },
-            drop: function( event, ui ) {
-                $( this )
-                    .removeClass("droppable")
-                    .removeClass("ui-droppable");
-
-                    ui.draggable.appendTo($(this));
-                    ui.draggable.addClass("OnSlot");
-                    ui.draggable.css("top", "0px");
-                    ui.draggable.css("left", "0px");
-                    //console.log(ui);
-                    //console.log($( this ));
-                    
-            }
-        });
-    });
-
-    function MakePanel(course)
-    {
-        var panel = $('<div class="draggable"/>').html(GetHtml(course));
-        panel.draggable({ 
-            revert: "invalid", 
-            appendTo : "body",
-        });
-
-        panel.mouseover(function ()
-        {
-            $( this ).find( ".deleteBtn" ).show();
-        });
-
-
-        panel.mouseleave(function ()
-        {
-            $( this ).find( ".deleteBtn" ).hide();
-        });
-        course.draggablePanel = panel;
-        $("#coursePool").append(panel);
-    }
-
-    
-    
-
-    function ShowTreeDiagram()
-    {
-        $('#treeDiagram').show();
-        $('#coursePool').addClass('coursePoolOnRight');
-        $('#coursePool').removeClass('coursePoolOnLeft');
-        $('#sandBox').hide();
-        console.log("ShowTreeDiagram");
-        
-    }
-
-    function ShowSandBox()
-    {
-        $('#treeDiagram').hide();
-        $('#coursePool').addClass('coursePoolOnLeft');
-        $('#coursePool').removeClass('coursePoolOnRight');
-        $('#sandBox').show();
-    }
-
-</script>
+    <script type="text/javascript" src="./js_library/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="./js_library/jquery-ui.js"></script>
+    <script type="text/javascript" src="./js_library/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="sandbox.js"s></script>
 
 <div id="coursePool">
     <button id="btnToTree" onclick="ShowTreeDiagram()"><-To Tree Diagram</button>
@@ -103,9 +27,9 @@
 
     <div class="chart" id="OrganiseChart-simple">
 	</div>
-	<script src="./raphael.js"></script>
-	<script src="./Treant.js"></script>
-	<script src="JimAjax.js"></script>
+	<script src="./js_library/raphael.js"></script>
+	<script src="./js_library/Treant.js"></script>
+	<script src="./js_library/JimAjax.js"></script>
     <script src="tree.js"></script>
 </div>
 
@@ -139,7 +63,9 @@
                                         </td>
                                     </tr>
                                 </tbody>
+                                <a id="linkShare" href="Project_share/index.html">Share-></a>
                             </table>
+
                         </div>
 
 
@@ -392,7 +318,7 @@
     </div>
 
     <button>Share</button>
-    <button>Save</button>
+    <button><a id="linkShare" href="Project_share/index.html">Share-></a></button>
 
 </div>
 
