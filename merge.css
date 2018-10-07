@@ -1,12 +1,12 @@
 #MergeBox
 {
-    width: 33%;
+    width: 45%;
     float: right;
 }
 
 #FriendsBox
 {
-    width: 33%;
+    width: 45%;
     float: left;
 }
 
@@ -29,5 +29,10 @@
 {
     display: block;
 }
-.cssChildrenSsp {padding: 0%;}
+.cssChildrenSsp {padding: 0% 2%;}
 
+.slot
+{
+margin: 0% 2%;
+
+}
