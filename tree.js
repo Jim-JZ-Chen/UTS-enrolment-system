@@ -41,6 +41,21 @@ function onRecive()
 		{
 			courses[i].Requisite.a = [courses[i].Requisite.a];
 		}
+		courses[i].state = "OnTree";
+
+		courses[i].setState = function(state)
+		{
+			console.log("setState "+ state);
+			this.state = state;
+			if(state == "OnTree")
+			{
+				this.innerHTML.childNodes[0].childNodes[1].childNodes[5].innerHTML = enrollBtn(this.id);
+			}
+			else if(state == "OnPool")
+			{
+				this.innerHTML.childNodes[0].childNodes[1].childNodes[5].innerHTML = "choosed";
+			}
+		};
 	}
 	
 	for (let i = 0; i < courses.length; i++) 
@@ -95,13 +110,17 @@ function buildPanel(course)
 	div.onmouseover = function(){ OnBtnCourse(div.id);}
 	div.onmouseout =  function(){ OnBtnCourseOut(div.id);}
 	div.id = course.id;
-	div.innerHTML = GetHtml(course, 
-		"<button onclick='enrollCourse()' class='btnInPanel enrollBtn' id='"+course.id+"enroll'>enroll</button>");
-
+	div.innerHTML = GetHtml(course, enrollBtn(course.id));
+	
 	//console.log(div.innerHTML.charAt(0));
 	return div;
 	//return '<div class="courseSelect" onmouseover="OnBtnCourse(id)" onmouseout="OnBtnCourseOut(id)" id="'+course.id+'">'+
 	//GetHtml(course)+'</div>';
+}
+
+function enrollBtn(id)
+{
+	return "<button onclick='enrollCourse()' class='btnInPanel enrollBtn' id='"+id+"enroll'>enroll</button>";
 }
 
 function GetHtml(course, btn)
@@ -123,7 +142,9 @@ function GetHtml(course, btn)
 						(Credit Points:`+course.cp+`)
 					</div>
 				</div>
+				<div class="info">
 				`+btn+`
+				</div>
 				<div class="cssMainContentBottom" style="position:relative; overflow: hidden;">
 					<span style="left: 4px;padding-left:3px">`+course.time+`</span>
 				</div>
@@ -142,7 +163,7 @@ function highLight(id)
 {
 	let course = courses.find(id);
 	highLightedCourses.push(course);
-	$("#"+course.id +" div").addClass("onChild");
+	course.innerHTML.classList.add("onChild");
 	if(typeof course.parent != "undefined")
 	{
 		let parent = courses.find(course.parent.id);
@@ -154,7 +175,8 @@ function highLight(id)
 function unHighLight(id)
 {
 	let course = courses.find(id);
-	$("#"+course.id +" div").removeClass("onChild");
+		course.innerHTML.classList.remove("onChild");
+
 	if(typeof course.parent != "undefined")
 	{
 		let parent = courses.find(course.parent.id);
@@ -162,8 +184,10 @@ function unHighLight(id)
 	}
 }
 
+
 function OnBtnCourseOut(id)
 {
+	console.log("");
 	highLightedCourses = [];
 	unHighLight(id);
 }
@@ -171,9 +195,13 @@ function OnBtnCourseOut(id)
 function enrollCourse()
 {
 	for (let i = 0; i < highLightedCourses.length; i++) {
-		const course = highLightedCourses[i];
 
-		$("#coursePool").append(MakePanel(course));
+		const course = highLightedCourses[i];
+		if(course.state == "OnTree")
+		{
+			$("#coursePool").append(MakePanel(course));
+			course.setState("OnPool");
+		}
 	}
 }
 
@@ -186,6 +214,7 @@ function deleteCourse(id)
 		course.draggablePanel.slot.addClass('unuse').removeClass('used');
 	}
 	course.draggablePanel.remove();
+	course.setState("OnTree");
 }
 
 

@@ -139,15 +139,24 @@ html, body{
 }
 
 
-.btnInPanel
+.info
 {
-    padding: 2px 5px;
-    display: none;
     margin: -27px 4px 0px;
     float: right;
+    height: 25px;
+    width: 60px;
+    color: black;
+}
+
+.btnInPanel
+{
+    float: right;
+    padding: 2px 5px;
+    display: none;
+    height: 100%;
     border: 1px solid #DDD; 
-    border-radius: 3px; 
     text-decoration: none;
+    border-radius: 3px; 
 }
 
 .deleteBtn

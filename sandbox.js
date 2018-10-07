@@ -1,12 +1,4 @@
 $( function() {
-    $(".draggable").draggable({ 
-        revert: "invalid", 
-        appendTo : "body",
-        start: function(event, ui ) 
-        {
-
-        }
-    });
     
     $( ".droppable" ).droppable({
         classes: {
@@ -15,15 +7,12 @@ $( function() {
         },
         drop: function( event, ui ) {
             $( this )
-                .removeClass("droppable")
-                .removeClass("ui-droppable");
-
+                .droppable("disable");
                 ui.draggable.appendTo($(this));
                 ui.draggable.addClass("OnSlot");
                 ui.draggable.css("top", "0px");
                 ui.draggable.css("left", "0px");
-                //console.log(ui);
-                //console.log($( this ));
+                courses.find(ui.draggable.context.id).setState("OnSandbox");
                 
         }
     });
@@ -31,11 +20,20 @@ $( function() {
 
 function MakePanel(course)
 {
-    var panel = $('<div class="draggable"/>').html(GetHtml(course, DeleteBtn(course.id)));
+    var panel = $("<div class='draggable' id='"+course.id+"'/>").html(GetHtml(course, DeleteBtn(course.id)));
+    panel.courseID = course.id;
     panel.draggable({ 
         revert: "invalid", 
         appendTo : "body",
+
+        start: function() 
+        {
+            $('.slot.unuse').droppable("disable");
+            $('.slot.unuse.'+course.time).droppable("enable");
+
+        }
     });
+    
     course.draggablePanel = panel;
     return panel;
 }
