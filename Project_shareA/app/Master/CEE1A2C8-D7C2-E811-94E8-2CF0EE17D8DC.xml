@@ -1,0 +1,15 @@
+﻿<master version="5.3" minAllowVersion="5.3" ID="CEE1A2C8-D7C2-E811-94E8-2CF0EE17D8DC">
+  <controls>
+    <control controlID="E403A2C8-D7C2-E811-94E8-2CF0EE17D8DC" controlTypeID="Master" x="74" y="123" w="253" h="37" zOrder="11" masterID="CEE1A2C8-D7C2-E811-94E8-2CF0EE17D8DC">
+      <groupChildrenDescriptors>
+        <control controlID="6EB3586A-D7C2-E811-94E8-2CF0EE17D8DC" controlTypeID="Search" x="0" y="0" w="253" h="37" zOrder="0">
+          <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+          <textSize>14</textSize>
+          <textVAlign>VaTop</textVAlign>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</master>
