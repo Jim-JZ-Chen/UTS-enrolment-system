@@ -41,21 +41,7 @@ function onRecive()
 		{
 			courses[i].Requisite.a = [courses[i].Requisite.a];
 		}
-		courses[i].state = "OnTree";
-
-		courses[i].setState = function(state)
-		{
-			console.log("setState "+ state);
-			this.state = state;
-			if(state == "OnTree")
-			{
-				this.innerHTML.childNodes[0].childNodes[1].childNodes[5].innerHTML = enrollBtn(this.id);
-			}
-			else if(state == "OnPool")
-			{
-				this.innerHTML.childNodes[0].childNodes[1].childNodes[5].innerHTML = "choosed";
-			}
-		};
+		
 	}
 	
 	for (let i = 0; i < courses.length; i++) 
@@ -70,6 +56,34 @@ function onRecive()
 				courses[i].parent = c;
 			}
 		//}
+
+
+		courses[i].state = "OnTree";
+
+		courses[i].setState = function(state)
+		{
+			console.log("setState "+ state);
+			this.state = state;
+			if(state == "OnTree")
+			{
+				this.innerHTML.childNodes[0].childNodes[1].childNodes[5].innerHTML = enrollBtn(this.id);
+			}
+			else if(state == "OnPool")
+			{
+				this.innerHTML.childNodes[0].childNodes[1].childNodes[5].innerHTML = "Choosed";
+			}
+			else if(state == "OnSandbox")
+			{
+				this.innerHTML.childNodes[0].childNodes[1].childNodes[5].innerHTML = "Enrolled";
+				for (let i = 0; i < this.children.length; i++) 
+				{
+					if(typeof this.children[i].draggablePanel != "undefined")
+					{
+						this.children[i].draggablePanel.draggable("enable");
+					}
+				}
+			}
+		};
 	}
 	console.log(courses);
 
@@ -126,7 +140,7 @@ function enrollBtn(id)
 function GetHtml(course, btn)
 {
 	var a =  
-		`<div  class="cssMainContent  cssMainContent_SspStts_PASS ">
+		`<div  class="cssMainContent">
 			<div  class="cssMainContentRight">
 				<div  class="cssContentTop cssH1_CompntType_C cssH1_SspStts_PASS cssH1_SpkCat_SJ cssH1_SpkCatType_SJ">
 					<span class="cssSpkCd">`+course.id+`</span>
@@ -135,7 +149,7 @@ function GetHtml(course, btn)
 					</span>
 				</div>
 				<div  class="cssContentMiddle">
-					<div  class="cssMiddleLeftPartBTop cssContent_CompntType_C cssContent_SspStts_PASS cssContent_SpkCat_SJ cssContent_SpkCatType_SJ">
+					<div  class="cssMiddleLeftPartBTop cssContent_CompntType_C cssContent_SpkCat_SJ cssContent_SpkCatType_SJ">
 						<span class="cssSpkName">`+course.name+`</span>
 					</div>
 					<div  class="cssStudyMeasureInfo">
@@ -167,7 +181,6 @@ function highLight(id)
 	if(typeof course.parent != "undefined")
 	{
 		let parent = courses.find(course.parent.id);
-
 		highLight(parent.id);
 	}
 }
@@ -175,7 +188,7 @@ function highLight(id)
 function unHighLight(id)
 {
 	let course = courses.find(id);
-		course.innerHTML.classList.remove("onChild");
+	course.innerHTML.classList.remove("onChild");
 
 	if(typeof course.parent != "undefined")
 	{
@@ -187,15 +200,14 @@ function unHighLight(id)
 
 function OnBtnCourseOut(id)
 {
-	console.log("");
 	highLightedCourses = [];
 	unHighLight(id);
 }
 
 function enrollCourse()
 {
-	for (let i = 0; i < highLightedCourses.length; i++) {
-
+	for (let i = 0; i < highLightedCourses.length; i++) 
+	{
 		const course = highLightedCourses[i];
 		if(course.state == "OnTree")
 		{

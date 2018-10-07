@@ -87,6 +87,11 @@ html, body{
     margin: 0px; 
 }
 
+.ui-draggable-disabled
+{
+    color: #b1b1b1;
+}
+
 .OnSlot
 {
     top:0px;
@@ -104,6 +109,7 @@ html, body{
     margin: 0px; 
 }
 
+
 /************************************** Tree Diagram**********************************/
 
 
@@ -118,7 +124,6 @@ html, body{
 
 
 .node { 
-	color: #9CB5ED;
     width: 180px;
 }
 

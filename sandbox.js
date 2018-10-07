@@ -33,6 +33,12 @@ function MakePanel(course)
 
         }
     });
+
+    if(typeof course.parent!= "undefined" &&course.parent.state != "OnSandbox")
+    {
+        panel.draggable("disable");
+    }
+
     
     course.draggablePanel = panel;
     return panel;
