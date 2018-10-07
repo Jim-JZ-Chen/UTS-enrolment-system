@@ -2,9 +2,17 @@ var ajax = new JimAjax();
 var courses;
 var highLightedCourses = [];
 
-ajax.get("./UTS_data/UTScourseDetail_lite.json", function()
+function downloadData(act)
 {
+	ajax.get("./UTS_data/UTScourseDetail_lite.json", function()
+		{
+			onRecive();
+			act();
+		});
+}
 
+function onRecive()
+{
 	courses = ajax.getJson();
 	console.log(courses);
 
@@ -19,16 +27,7 @@ ajax.get("./UTS_data/UTScourseDetail_lite.json", function()
 
 	console.log(courses.find(32998));
 
-	var chart = 
-	{
-		chart: 
-		{
-			container: "#treeDiagram",
-			hideRootNode: true,
-		}
-	};
 
-	chart.nodeStructure = {children:[]};
 
 	for (let i = 0; i < courses.length; i++) 
 	{
@@ -58,6 +57,23 @@ ajax.get("./UTS_data/UTScourseDetail_lite.json", function()
 		//}
 	}
 	console.log(courses);
+
+  
+
+}
+
+function buildTree()
+{
+	var chart = 
+	{
+		chart: 
+		{
+			container: "#treeDiagram",
+			hideRootNode: true,
+		}
+	};
+
+	chart.nodeStructure = {children:[]};
 	var rootCourses = [];
 	for (let i = 0; i < courses.length; i++) 
 	{
@@ -67,22 +83,28 @@ ajax.get("./UTS_data/UTScourseDetail_lite.json", function()
 		}
 	}
 
-  
 	chart.nodeStructure.children = rootCourses;
-
-
 	new Treant(chart);
-	
-});
-
+}
 
 function buildPanel(course)
 {
-	return '<div class="courseSelect" onmouseover="OnBtnCourse(id)" onmouseout="OnBtnCourseOut(id)" id="'+course.id+'">'+
-	GetHtml(course)+'</div>';
+
+	var div = document.createElement("div");
+	div.class = "courseSelect";
+	div.onmouseover = function(){ OnBtnCourse(div.id);}
+	div.onmouseout =  function(){ OnBtnCourseOut(div.id);}
+	div.id = course.id;
+	div.innerHTML = GetHtml(course, 
+		"<button onclick='enrollCourse()' class='btnInPanel enrollBtn' id='"+course.id+"enroll'>enroll</button>");
+
+	//console.log(div.innerHTML.charAt(0));
+	return div;
+	//return '<div class="courseSelect" onmouseover="OnBtnCourse(id)" onmouseout="OnBtnCourseOut(id)" id="'+course.id+'">'+
+	//GetHtml(course)+'</div>';
 }
 
-function GetHtml(course)
+function GetHtml(course, btn)
 {
 	var a =  
 		`<div  class="cssMainContent  cssMainContent_SspStts_PASS ">
@@ -101,8 +123,7 @@ function GetHtml(course)
 						(Credit Points:`+course.cp+`)
 					</div>
 				</div>
-				<button onclick="enrollCourse()" class="btnInPanel enrollBtn" id="`+course.id+`enroll">enroll</button>
-				<button onclick="deleteCourse(`+course.id+`)" class="btnInPanel deleteBtn" id="delete">delete</button>
+				`+btn+`
 				<div class="cssMainContentBottom" style="position:relative; overflow: hidden;">
 					<span style="left: 4px;padding-left:3px">`+course.time+`</span>
 				</div>
@@ -114,7 +135,6 @@ function GetHtml(course)
 
 function OnBtnCourse(id)
 {
-	$("#"+id+'enroll').show();
 	highLight(id);
 }
 
@@ -145,7 +165,6 @@ function unHighLight(id)
 function OnBtnCourseOut(id)
 {
 	highLightedCourses = [];
-	$("#"+id+'enroll').hide();
 	unHighLight(id);
 }
 
@@ -153,13 +172,19 @@ function enrollCourse()
 {
 	for (let i = 0; i < highLightedCourses.length; i++) {
 		const course = highLightedCourses[i];
-		MakePanel(course);
+
+		$("#coursePool").append(MakePanel(course));
 	}
 }
 
 function deleteCourse(id)
 {
 	let course = courses.find(id);
+	console.log(course.draggablePanel);
+	if(typeof course.draggablePanel.slot != "undefined")
+	{
+		course.draggablePanel.slot.addClass('unuse').removeClass('used');
+	}
 	course.draggablePanel.remove();
 }
 

@@ -1,4 +1,4 @@
-﻿<project version="2.9" name="Project_share" ID="68992E66-E3AF-E811-A929-2CF0EE17D8DC">
+﻿<project version="2.9" name="Project_sendB" ID="F2482D00-DBC2-E811-94E8-2CF0EE17D8DC">
   <params>
     <pageParam version="5.3" minAllowVersion="5.3"/>
     <projectParam version="2.9" minAllowVersion="2.9" platform="MtWeb" pageSize="(1100,6000)" backgroundColor="4294967295" fontSize="0" fontFamily="" projectType="ptPersonalProject" isShowTitleIndex="False"/>
@@ -6,49 +6,127 @@
     <colorParam version="1.0"/>
   </params>
   <pages>
-    <page name="Home" ID="5C9B2E66-E3AF-E811-A929-2CF0EE17D8DC" expanded="True" code="oIJNPUQuYX" thumbCode="oIJNPUQuYX" status="psWhite" isfolder="False" isshownode="True">
+    <page name="Home" ID="B0252ADF-90C8-E811-A0BB-2CF0EE17D8DC" expanded="True" code="sxDVDcvwHM" thumbCode="sxDVDcvwHM" status="psWhite" isfolder="False" isshownode="True">
       <images>
-        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+        <image key="A8EEFF9A9B3E9246897B5C2CED787254.jpeg"/>
       </images>
-      <page name="search_id" ID="3691F5BF-93B4-E811-A929-2CF0EE17D8DC" expanded="True" code="SNVd1DexJu" thumbCode="SNVd1DexJu" status="psWhite" isfolder="False" isshownode="True">
+      <page name="search_id" ID="72AE2ADF-90C8-E811-A0BB-2CF0EE17D8DC" expanded="True" code="5ZtZrYGjYX" thumbCode="LWIkaK8eA2" status="psWhite" isfolder="False" isshownode="True">
         <images>
           <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+          <image key="A8EEFF9A9B3E9246897B5C2CED787254.jpeg"/>
         </images>
-        <page name="confirm" ID="4A2D4ADC-95B4-E811-A929-2CF0EE17D8DC" expanded="True" code="L1lG8pHcEP" thumbCode="L1lG8pHcEP" status="psWhite" isfolder="False" isshownode="True">
+        <page name="confirm" ID="64252BDF-90C8-E811-A0BB-2CF0EE17D8DC" expanded="True" code="nFzBAZrZ8S" thumbCode="nFzBAZrZ8S" status="psWhite" isfolder="False" isshownode="True">
           <images>
             <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+            <image key="A8EEFF9A9B3E9246897B5C2CED787254.jpeg"/>
           </images>
-          <page name="shared" ID="808CECE0-F9AF-E811-A929-2CF0EE17D8DC" expanded="True" code="qtF2lzj9mB" thumbCode="qtF2lzj9mB" status="psWhite" isfolder="False" isshownode="True">
+          <page name="shared" ID="AAB12BDF-90C8-E811-A0BB-2CF0EE17D8DC" expanded="True" code="69RVnU7ogU" thumbCode="69RVnU7ogU" status="psWhite" isfolder="False" isshownode="True">
             <images>
               <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+              <image key="A8EEFF9A9B3E9246897B5C2CED787254.jpeg"/>
               <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
             </images>
+            <page name="okay" ID="26EF9555-92C8-E811-AD8B-2CF0EE17D8DC" expanded="True" code="QexPGD1zuS" thumbCode="QexPGD1zuS" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+              <images>
+                <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+                <image key="A8EEFF9A9B3E9246897B5C2CED787254.jpeg"/>
+              </images>
+            </page>
           </page>
         </page>
       </page>
     </page>
-    <page name="request" ID="F265B329-58B5-E811-A929-2CF0EE17D8DC" expanded="True" code="WLHTJ7nIza" thumbCode="WLHTJ7nIza" status="psWhite" isfolder="False" isshownode="True">
+  </pages>
+  <trash>
+    <page name="Home" ID="1E4A2D00-DBC2-E811-94E8-2CF0EE17D8DC" expanded="True" code="CuamQy7cZP" thumbCode="DQgjXOTMRL" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Home" ID="EC45C4A8-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="j2ZXnCVQPC" thumbCode="TJBaHWyqvU" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="search_id" ID="BCACC4A8-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="xP5pxeRqPQ" thumbCode="" status="psWhite" isfolder="False" isshownode="True">
       <images>
         <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
       </images>
-      <page name="Page" ID="AE8ADA80-58B5-E811-A929-2CF0EE17D8DC" expanded="True" code="OJnzzpigH8" thumbCode="OJnzzpigH8" status="psWhite" isfolder="False" isshownode="True">
-        <images>
-          <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
-          <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
-        </images>
-        <page name="Page1" ID="6EC8045A-5CB5-E811-A929-2CF0EE17D8DC" expanded="True" code="sfkv2CYV1c" thumbCode="sfkv2CYV1c" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
-          <images>
-            <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
-          </images>
-        </page>
-      </page>
     </page>
-  </pages>
-  <trash/>
+    <page name="confirm" ID="7C05C5A8-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="OCXbpzSr6E" thumbCode="" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+      </images>
+    </page>
+    <page name="shared" ID="B06CC5A8-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="False" code="bPdGnCVE6B" thumbCode="" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+        <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
+      </images>
+    </page>
+    <page name="Page" ID="76C598AC-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="FKf43uDWdE" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Page" ID="505B83B1-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="gW3xDRW7Ya" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Home" ID="7828BDB9-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="A8jCV6GFEr" thumbCode="gYxfesYj7a" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="search_id" ID="0488BDB9-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="PRakzO9xZe" thumbCode="" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+      </images>
+    </page>
+    <page name="confirm" ID="2ADFBDB9-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="12R19lC9aZ" thumbCode="" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+      </images>
+    </page>
+    <page name="shared" ID="D047BEB9-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="False" code="9XWAxbfsaz" thumbCode="" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+        <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
+      </images>
+    </page>
+    <page name="Page" ID="1ED492C4-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="CozP64Q1Pj" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Home" ID="E80B14CE-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="QBphCuuJJj" thumbCode="sbOmp8unlB" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="60DF3D87729BEB899FF47EF516E5F820.png"/>
+      </images>
+    </page>
+    <page name="search_id" ID="9C6614CE-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="k3MDYJONTv" thumbCode="pOxLZG8CcQ" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+        <image key="60DF3D87729BEB899FF47EF516E5F820.png"/>
+      </images>
+    </page>
+    <page name="confirm" ID="9ABD14CE-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="i19JsUfaeB" thumbCode="yMMqerLgZH" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+      </images>
+    </page>
+    <page name="shared" ID="7E2915CE-DBC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="ScmMai5WgB" thumbCode="HBCZhp1ivV" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+        <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
+      </images>
+    </page>
+    <page name="shared1" ID="26CC1B42-DFC2-E811-AEBD-2CF0EE17D8DC" expanded="True" code="imGHOHvU49" thumbCode="LnaLl9YfkX" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+      </images>
+    </page>
+    <page name="Page2" ID="22473BAE-90C8-E811-A0BB-2CF0EE17D8DC" expanded="False" code="pmvA3N7niP" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Page1" ID="DA4A46AB-90C8-E811-A0BB-2CF0EE17D8DC" expanded="True" code="DPQvfEtUq1" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Page" ID="1CCBC87F-90C8-E811-A0BB-2CF0EE17D8DC" expanded="True" code="wqVA2zRcVD" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Page" ID="A0B719B4-90C8-E811-A0BB-2CF0EE17D8DC" expanded="True" code="OFuOG98prB" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="confirm" ID="FA6F9655-92C8-E811-AD8B-2CF0EE17D8DC" expanded="True" code="epvwiWv27N" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+        <image key="A8EEFF9A9B3E9246897B5C2CED787254.jpeg"/>
+      </images>
+    </page>
+    <page name="shared" ID="50F69655-92C8-E811-AD8B-2CF0EE17D8DC" expanded="False" code="gjvcTGsFpk" thumbCode="" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+        <image key="A8EEFF9A9B3E9246897B5C2CED787254.jpeg"/>
+        <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
+      </images>
+    </page>
+  </trash>
   <deletes/>
   <masters/>
   <images>
     <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
     <image key="83DD69C47E6D1466D54371E396D6F349.svg"/>
+    <image key="60DF3D87729BEB899FF47EF516E5F820.png"/>
+    <image key="A8EEFF9A9B3E9246897B5C2CED787254.jpeg"/>
   </images>
 </project>

@@ -1,0 +1,19 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="1E4A2D00-DBC2-E811-94E8-2CF0EE17D8DC" platform="MtWeb" defaultW="1100" defaultH="6000" measureW="1100" measureH="6000" mobileScreenScale="0">
+  <controls controlCount="1">
+    <control controlID="06853516-DBC2-E811-94E8-2CF0EE17D8DC" controlTypeID="BrowserWindow" x="0" y="0" w="1100" h="799" zOrder="0">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>Share+Study+Plan%0Ahttps%3A%2F%2Fwww.sharestudyplan.com</text>
+      <textSize>16</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

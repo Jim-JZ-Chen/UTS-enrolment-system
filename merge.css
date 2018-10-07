@@ -1,0 +1,33 @@
+#MergeBox
+{
+    width: 33%;
+    float: right;
+}
+
+#FriendsBox
+{
+    width: 33%;
+    float: left;
+}
+
+.cssPlanGroupCore, .cssPlanGroupOption {
+    margin-top: 0px;
+}
+
+
+.togetherBtn
+{
+    background-color: green;
+}
+
+.cssMainContentRight .btnInPanel
+{
+    display: none;
+}
+
+.cssMainContentRight:hover .btnInPanel
+{
+    display: block;
+}
+.cssChildrenSsp {padding: 0%;}
+

@@ -1,7 +1,16 @@
 html, body{
     height: 100%;
 }
+/************************************* course panel ***********************************/
+.cssMainContentRight .btnInPanel
+{
+    display: none;
+}
 
+.cssMainContentRight:hover .btnInPanel
+{
+    display: block;
+}
 /************************************* Sand Box ***********************************/
 
 #sandBox

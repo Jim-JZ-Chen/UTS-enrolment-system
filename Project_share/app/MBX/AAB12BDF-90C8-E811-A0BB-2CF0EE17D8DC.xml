@@ -1,0 +1,182 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="AAB12BDF-90C8-E811-A0BB-2CF0EE17D8DC" platform="MtWeb" defaultW="1100" defaultH="6000" measureW="1100" measureH="6000" mobileScreenScale="0">
+  <controls controlCount="21">
+    <control controlID="407BA2E3-92B4-E811-A929-2CF0EE17D8DC" controlTypeID="BrowserWindow" x="0" y="0" w="1100" h="859" zOrder="0">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>Share+Study+Plan%0Ahttps%3A%2F%2Fwww.sharestudyplan.com</text>
+      <textSize>16</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="50EAA1E7-92B4-E811-A929-2CF0EE17D8DC" controlTypeID="Label" x="82" y="101" w="125" h="18" zOrder="1">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>Type+the+student+ID%3A</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="5656C2EB-92B4-E811-A929-2CF0EE17D8DC" controlTypeID="Search" x="72" y="124" w="266" h="36" zOrder="2">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="AAB12BDF-90C8-E811-A0BB-2CF0EE17D8DC" linkType="ltPageLink" isApplyIncludePage="False" title="shared">
+          <area shape="0" alt="" ID="{BEAA5BE3-F9AF-E811-A929-2CF0EE17D8DC}" coords="(0,0,266,36)"/>
+        </link>
+      </links>
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <textColor>4288256409</textColor>
+      <textSize>14</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <textDirection>tdLeft</textDirection>
+    </control>
+    <control controlID="BA01558F-93B4-E811-A929-2CF0EE17D8DC" controlTypeID="Panel" x="82" y="217" w="245" h="243" zOrder="3">
+      <groupChildrenDescriptors>
+        <control controlID="AE03558F-93B4-E811-A929-2CF0EE17D8DC" controlTypeID="Border" x="0" y="0" w="245" h="243" zOrder="0">
+          <alias>borderLayer</alias>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>1</thinkness>
+    </control>
+    <control controlID="4CCEC779-96B4-E811-A929-2CF0EE17D8DC" controlTypeID="TextInput" x="86" y="129" w="147" h="26" zOrder="4">
+      <borderVisible>False</borderVisible>
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>Search...</text>
+      <textColor>4288256409</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="A62976C5-96B4-E811-A929-2CF0EE17D8DC" controlTypeID="Shape" x="728" y="73" w="372" h="756" zOrder="5">
+      <borderColor>4278190080</borderColor>
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="5E49F0D7-96B4-E811-A929-2CF0EE17D8DC" controlTypeID="Line" x="728" y="113" w="370" h="1" zOrder="6">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <controlPoint>(186,0)</controlPoint>
+      <startPoint>(1,0)</startPoint>
+      <endPoint>(370,0)</endPoint>
+    </control>
+    <control controlID="0CF65873-55B5-E811-A929-2CF0EE17D8DC" controlTypeID="Label" x="102" y="237" w="62" h="18" zOrder="7">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>17826354</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="3EE4367A-55B5-E811-A929-2CF0EE17D8DC" controlTypeID="Icon" x="281" y="250" w="13" h="13" zOrder="8">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62167</iconCode>
+      </icon>
+      <URL>8BE3C7AC8FBB1747163ECAB9AB46AD44.svg</URL>
+    </control>
+    <control controlID="C0CB10D9-58B5-E811-A929-2CF0EE17D8DC" controlTypeID="Label" x="876" y="83" w="101" h="22" zOrder="9">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>My+Request</text>
+      <textSize>18</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="829999A2-C6B5-E811-A929-2CF0EE17D8DC" controlTypeID="Button" x="424" y="586" w="114" h="34" zOrder="10">
+      <color>4278229248</color>
+      <borderColor>4278229248</borderColor>
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>Send%0A</text>
+      <textColor>4294967295</textColor>
+      <textSize>16</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>4</radius>
+      <buttonStatus>BsFocused</buttonStatus>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="960368B0-C6B5-E811-A929-2CF0EE17D8DC" controlTypeID="PointyButton" x="556" y="586" w="139" h="34" zOrder="11">
+      <color>4278216396</color>
+      <borderColor>4278216396</borderColor>
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>View+My+Subject</text>
+      <textColor>4294967295</textColor>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="943FC99A-D9C2-E811-94E8-2CF0EE17D8DC" controlTypeID="TextArea" x="103" y="255" w="121" h="21" zOrder="12">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>Julie+White%0A</text>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B2E13825-77C5-E811-920A-2CF0EE17D8DC" controlTypeID="Label" x="10" y="76" w="518" h="22" zOrder="13">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>Send+your+request+to+your+friends+and+share+your+study+plan</text>
+      <textSize>18</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="BAE08C1A-92C8-E811-AD8B-2CF0EE17D8DC" controlTypeID="Image" x="348" y="113" w="370" h="445" zOrder="14">
+      <URL>A8EEFF9A9B3E9246897B5C2CED787254.jpeg</URL>
+    </control>
+    <control controlID="820B9CE4-60B5-E811-A929-2CF0EE17D8DC" controlTypeID="Shape" x="311" y="305" w="293" h="167" zOrder="15">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>8</radius>
+    </control>
+    <control controlID="6AF67ACD-57B5-E811-A929-2CF0EE17D8DC" controlTypeID="Label" x="330" y="400" w="259" h="18" zOrder="16">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>Your+study+plan+was+successfully+shared!!</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="4EEA24DE-56B5-E811-A929-2CF0EE17D8DC" controlTypeID="Icon" x="434" y="315" w="46" h="46" zOrder="17">
+      <color>4278242355</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62325</iconCode>
+      </icon>
+      <URL>83DD69C47E6D1466D54371E396D6F349.svg</URL>
+    </control>
+    <control controlID="80DDB2B6-57B5-E811-A929-2CF0EE17D8DC" controlTypeID="Label" x="423" y="366" w="68" h="24" zOrder="18">
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>Shared</text>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="6E46C8E5-57B5-E811-A929-2CF0EE17D8DC" controlTypeID="Button" x="421" y="433" w="73" h="33" zOrder="19">
+      <color>4278216396</color>
+      <borderColor>4278216396</borderColor>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="26EF9555-92C8-E811-AD8B-2CF0EE17D8DC" linkType="ltPageLink" isApplyIncludePage="False" title="okay">
+          <area shape="0" alt="" ID="{34868A7A-92C8-E811-AD8B-2CF0EE17D8DC}" coords="(0,0,73,33)"/>
+        </link>
+      </links>
+      <font family="" displayName="" postScript="" weightStyle="" weight="0" isBold="False" isItalic="False"/>
+      <text>OK</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <radius>8</radius>
+      <buttonStatus>BsFocused</buttonStatus>
+      <thickness>2</thickness>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

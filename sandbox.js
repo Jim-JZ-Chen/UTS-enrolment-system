@@ -31,28 +31,19 @@ $( function() {
 
 function MakePanel(course)
 {
-    var panel = $('<div class="draggable"/>').html(GetHtml(course));
+    var panel = $('<div class="draggable"/>').html(GetHtml(course, DeleteBtn(course.id)));
     panel.draggable({ 
         revert: "invalid", 
         appendTo : "body",
     });
-
-    panel.mouseover(function ()
-    {
-        $( this ).find( ".deleteBtn" ).show();
-    });
-
-
-    panel.mouseleave(function ()
-    {
-        $( this ).find( ".deleteBtn" ).hide();
-    });
     course.draggablePanel = panel;
-    $("#coursePool").append(panel);
+    return panel;
 }
 
-
-
+function DeleteBtn(id)
+{
+    return "<button onclick='deleteCourse("+id+")' class='btnInPanel deleteBtn'>delete</button>";
+}
 
 function ShowTreeDiagram()
 {

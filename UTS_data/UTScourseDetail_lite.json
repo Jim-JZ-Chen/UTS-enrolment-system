@@ -56,7 +56,7 @@
         {
           "id": "42010",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Advanced and Distributed Operating Systems"
         },
@@ -114,7 +114,7 @@
         {
           "id": "32544",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Advanced Image Synthesis Techniques"
         },
@@ -230,21 +230,21 @@
         {
           "id": "32536",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Advanced Software Modelling"
         },
         {
           "id": "32209",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Advanced Topics in Computer Networks"
         },
         {
           "id": "32550",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Advances in Requirements Engineering"
         },
@@ -496,14 +496,14 @@
         {
           "id": "32145",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Commercial Environment of IT"
         },
         {
           "id": "31265",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Communication for IT Professionals"
         },
@@ -524,7 +524,7 @@
         {
           "id": "31249",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Computer Graphics Rendering Techniques",
           "Requisite": {
@@ -541,7 +541,7 @@
         {
           "id": "32210",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Computer Vision and Image Processing"
         },
@@ -555,7 +555,7 @@
         {
           "id": "41079",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Computing Science Studio 2"
         },
@@ -586,14 +586,14 @@
         {
           "id": "41077",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Data Driven and Intelligent Robotics"
         },
         {
           "id": "32131",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Data Mining and Visualisation",
           "Requisite": {
@@ -774,35 +774,35 @@
         {
           "id": "42301",
           "cp": "0",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Doctoral Research Innovation Output"
         },
         {
           "id": "42300",
           "cp": "0",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Doctoral Thesis: Applied Innovation"
         },
         {
           "id": "31000",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "e-Business Trading"
         },
         {
           "id": "31254",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "e-Commerce"
         },
         {
           "id": "32133",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "e-Market Trading Technology"
         },
@@ -844,7 +844,7 @@
         {
           "id": "31100",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Enterprise Development with .NET",
           "Requisite": {
@@ -992,7 +992,7 @@
         {
           "id": "42075",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Game Design Studio"
         },
@@ -1061,7 +1061,7 @@
         {
           "id": "42072",
           "cp": "12",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Graduate Research Project (12cp in one session)"
         },
@@ -1100,14 +1100,14 @@
         {
           "id": "41020",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Human-centred Design Methods"
         },
         {
           "id": "32405",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Human-centred Design Methods"
         },
@@ -1231,7 +1231,7 @@
         {
           "id": "31735",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Information Systems and Organisation Development",
           "Requisite": {
@@ -1297,7 +1297,7 @@
         {
           "id": "42079",
           "cp": "24",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Innovation Studio"
         },
@@ -1344,7 +1344,7 @@
         {
           "id": "32029",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Interactive Arts"
         },
@@ -1387,7 +1387,7 @@
         {
           "id": "31261",
           "cp": "6",
-          "time": "Summer",
+          "time": "Autumn",
           "level": "Undergraduate",
           "name": "Internetworking Project",
           "Requisite": {
@@ -1457,7 +1457,7 @@
         {
           "id": "32147",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Introduction to IT Management"
         },
@@ -1547,7 +1547,7 @@
         {
           "id": "42286",
           "cp": "24",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "IT Graduate Project (24cp in one session)",
           "Requisite": {
@@ -1564,7 +1564,7 @@
         {
           "id": "42282",
           "cp": "12",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "IT Graduate Project 24cp (Part 1 of 2) (2x12cp)",
           "Requisite": {
@@ -1581,7 +1581,7 @@
         {
           "id": "42283",
           "cp": "12",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "IT Graduate Project 24cp (Part 2 of 2) (2x12cp)",
           "Requisite": {
@@ -1598,7 +1598,7 @@
         {
           "id": "42033",
           "cp": "12",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "IT Graduate Project 36cp (Part 1 of 2) (12cp + 24cp)",
           "Requisite": {
@@ -1609,7 +1609,7 @@
         {
           "id": "42284",
           "cp": "18",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "IT Graduate Project 36cp (Part 1 of 2) (2x18cp)",
           "Requisite": {
@@ -1626,7 +1626,7 @@
         {
           "id": "42034",
           "cp": "24",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "IT Graduate Project 36cp (Part 2 of 2) (12cp + 24cp)",
           "Requisite": {
@@ -1637,7 +1637,7 @@
         {
           "id": "42285",
           "cp": "18",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "IT Graduate Project 36cp (Part 2 of 2) (2x18cp)",
           "Requisite": {
@@ -1683,7 +1683,7 @@
         {
           "id": "41061",
           "cp": "3",
-          "time": "Summer",
+          "time": "Autumn",
           "level": "Undergraduate",
           "name": "IT Professional Experience 1",
           "Requisite": {
@@ -1706,7 +1706,7 @@
         {
           "id": "41062",
           "cp": "3",
-          "time": "Summer",
+          "time": "Autumn",
           "level": "Undergraduate",
           "name": "IT Professional Experience 2",
           "Requisite": {
@@ -1729,7 +1729,7 @@
         {
           "id": "41063",
           "cp": "3",
-          "time": "Summer",
+          "time": "Autumn",
           "level": "Undergraduate",
           "name": "IT Professional Experience 3",
           "Requisite": {
@@ -1760,7 +1760,7 @@
         {
           "id": "41064",
           "cp": "3",
-          "time": "Summer",
+          "time": "Autumn",
           "level": "Undergraduate",
           "name": "IT Professional Experience 4",
           "Requisite": {
@@ -1837,7 +1837,7 @@
         {
           "id": "31096",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Managing Client/Vendor Relations",
           "Requisite": {
@@ -1869,14 +1869,14 @@
         {
           "id": "42302",
           "cp": "0",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Master of Applied Innovation Thesis"
         },
         {
           "id": "42303",
           "cp": "0",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Master Research Innovation Output"
         },
@@ -1916,7 +1916,7 @@
         {
           "id": "31091",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Mobile Computing Project",
           "Requisite": {
@@ -2081,7 +2081,7 @@
         {
           "id": "31950",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Networked Enterprise Design",
           "Requisite": {
@@ -2141,7 +2141,7 @@
         {
           "id": "42009",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Parallel and Multicore Computing",
           "Requisite": {
@@ -2152,7 +2152,7 @@
         {
           "id": "32995",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "People Management for IT"
         },
@@ -2194,7 +2194,7 @@
         {
           "id": "32510",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Principles of Object-oriented Programming in C++",
           "Requisite": {
@@ -2205,14 +2205,14 @@
         {
           "id": "41075",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Principles of Programming Languages"
         },
         {
           "id": "31104",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Programming for Special Effects",
           "Requisite": {
@@ -2337,7 +2337,7 @@
         {
           "id": "41019",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Prototyping Physical Interaction",
           "Requisite": {
@@ -2354,35 +2354,35 @@
         {
           "id": "42070",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Prototyping Physical Interaction"
         },
         {
           "id": "41076",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Undergraduate",
           "name": "Quantum Computing"
         },
         {
           "id": "32902",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Recent Advances in Information Systems"
         },
         {
           "id": "32039",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Recent Advances in Software Engineering"
         },
         {
           "id": "32572",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Reflective Practice in Information Technology",
           "Requisite": {
@@ -2449,14 +2449,14 @@
         {
           "id": "42077",
           "cp": "3",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Short Course Module A"
         },
         {
           "id": "42078",
           "cp": "3",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Unknow",
           "name": "Short Course Module B"
         },
@@ -2523,7 +2523,7 @@
         {
           "id": "32989",
           "cp": "12",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Software Project"
         },
@@ -2569,7 +2569,7 @@
         {
           "id": "42900",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Sustainability and Information Systems",
           "Requisite": {
@@ -2766,7 +2766,7 @@
         {
           "id": "32010",
           "cp": "6",
-          "time": "Unknow",
+          "time": "Spring",
           "level": "Postgraduate",
           "name": "Wide Area Network Implementation",
           "Requisite": {
@@ -2777,7 +2777,7 @@
         {
           "id": "41071",
           "cp": "6",
-          "time": "Summer",
+          "time": "Autumn",
           "level": "Undergraduate",
           "name": "Work Integrated Learning 1",
           "Requisite": {
@@ -2801,7 +2801,7 @@
           "id": "41072",
           "cp": "6",
           "time": [
-            "Summer",
+            "Autumn",
             "Spring, Autumn"
           ],
           "level": "Unknow",
@@ -2826,7 +2826,7 @@
         {
           "id": "41073",
           "cp": "6",
-          "time": "Summer",
+          "time": "Autumn",
           "level": "Undergraduate",
           "name": "Work Integrated Learning 3",
           "Requisite": {
@@ -2857,7 +2857,7 @@
         {
           "id": "41074",
           "cp": "6",
-          "time": "Summer",
+          "time": "Autumn",
           "level": "Undergraduate",
           "name": "Work Integrated Learning 4",
           "Requisite": {
