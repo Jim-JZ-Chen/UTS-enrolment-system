@@ -6,14 +6,13 @@ $( function() {
             "ui-droppable-hover": "ui-state-hover"
         },
         drop: function( event, ui ) {
-            $( this )
-                .droppable("disable");
-                ui.draggable.appendTo($(this));
-                ui.draggable.addClass("OnSlot");
-                ui.draggable.css("top", "0px");
-                ui.draggable.css("left", "0px");
-                courses.find(ui.draggable.context.id).setState("OnSandbox");
-                
+            
+            $( this ).addClass('used').removeClass('unuse');
+            ui.draggable.appendTo($(this));
+            ui.draggable.addClass("OnSlot");
+            ui.draggable.css("top", "0px");
+            ui.draggable.css("left", "0px");
+            courses.find(ui.draggable.context.id).setState("OnSandbox");             
         }
     });
 });
@@ -28,7 +27,7 @@ function MakePanel(course)
 
         start: function() 
         {
-            $('.slot.unuse').droppable("disable");
+            $('.slot').droppable("disable");
             $('.slot.unuse.'+course.time).droppable("enable");
 
         }

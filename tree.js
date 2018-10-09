@@ -67,6 +67,10 @@ function onRecive()
 			if(state == "OnTree")
 			{
 				this.innerHTML.childNodes[0].childNodes[1].childNodes[5].innerHTML = enrollBtn(this.id);
+				if(typeof this.friend != "undefined")
+				{
+					this.friend.childNodes[0].childNodes[1].childNodes[5].innerHTML = ToghtherBtn(this.id);
+				}
 			}
 			else if(state == "OnPool")
 			{
@@ -83,6 +87,11 @@ function onRecive()
 					}
 				}
 			}
+			else if(state == "Together")
+			{	console.log(this);
+				this.friend.childNodes[0].childNodes[1].childNodes[5].innerHTML = "Together";
+			}
+
 		};
 	}
 	console.log(courses);
@@ -227,6 +236,7 @@ function deleteCourse(id)
 	}
 	course.draggablePanel.remove();
 	course.setState("OnTree");
+	
 }
 
 
