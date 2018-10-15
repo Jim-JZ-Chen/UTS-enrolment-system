@@ -12,7 +12,8 @@ $( function() {
             ui.draggable.addClass("OnSlot");
             ui.draggable.css("top", "0px");
             ui.draggable.css("left", "0px");
-            courses.find(ui.draggable.context.id).setState("OnSandbox");             
+            courses.find(ui.draggable.context.id).setState("OnSandbox"); 
+            courses.find(ui.draggable.context.id).slot = $(this);
         }
     });
 });
@@ -29,7 +30,10 @@ function MakePanel(course)
         {
             $('.slot').droppable("disable");
             $('.slot.unuse.'+course.time).droppable("enable");
-
+            if(typeof course.slot != "undefined")
+            {
+                course.slot.addClass('unuse').removeClass('used');
+            }
         }
     });
 
@@ -50,18 +54,30 @@ function DeleteBtn(id)
 
 function ShowTreeDiagram()
 {
-    $('#treeDiagram').show();
+    //$('#treeDiagram').show();
+    $('#sandBox').addClass('onHideAin');
+    $('#sandBox').removeClass('onShowAin');
+
+    $('#treeDiagram').removeClass('onHideAin');
+    $('#treeDiagram').addClass('onShowAin');
+
     $('#coursePool').addClass('coursePoolOnRight');
     $('#coursePool').removeClass('coursePoolOnLeft');
-    $('#sandBox').hide();
+    //$('#sandBox').hide();
     console.log("ShowTreeDiagram");
     
 }
 
 function ShowSandBox()
 {
-    $('#treeDiagram').hide();
+    //$('#treeDiagram').hide();
+    $('#sandBox').removeClass('onHideAin');
+    $('#sandBox').addClass('onShowAin');
+
+    $('#treeDiagram').addClass('onHideAin');
+    $('#treeDiagram').removeClass('onShowAin');
+
     $('#coursePool').addClass('coursePoolOnLeft');
     $('#coursePool').removeClass('coursePoolOnRight');
-    $('#sandBox').show();
+    //$('#sandBox').show();
 }

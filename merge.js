@@ -37,6 +37,7 @@ function setToMyPlan(id)
 }
 
 
+
 function ToghtherBtn(id)
 {
 	return "<button onclick='Together("+id+")' class='btnInPanel togetherBtn'>Together</button>";

@@ -13,13 +13,20 @@ html, body{
 }
 /************************************* Sand Box ***********************************/
 
+
 #sandBox
 {
-
     float: left;
     width: 940px;
-    padding-left: 400px;
+    height: 100%;
+    overflow: auto;
 }
+
+#sandBox #fullWidth
+{
+    width: 920px;
+}
+
 
 .slot
 {
@@ -41,13 +48,12 @@ html, body{
 {
     border: 4px solid black;
     border-radius: 5px;
-    height: 95%;
+    height: 98%;
     width: 380px;
 }
 
 .coursePoolOnLeft
 {
-    position: fixed;
     float: left;
 }
 
@@ -55,27 +61,27 @@ html, body{
 .coursePoolOnRight
 {
     position: relative;
-    float: right;
+    float: left;
 }
 
 
 #coursePool #btnToTree
 {
-    position: absolute;
+
     bottom:5px;
     left:0px;
 }
 
 #coursePool #btnToSandbox
 {
-    position: absolute;
+
     bottom:5px;
     right:0px;
 }
 
 #coursePool #btnShare
 {
-    position: absolute;
+
     bottom:5px;
     right:150px;
 }
@@ -115,13 +121,52 @@ html, body{
 
 #treeDiagram
 {
-    height: 95%; 
-	margin: 5px; 
-	margin: 5px auto; 
+    height: 99%; 
 	border: 3px solid #DDD; 
     border-radius: 3px; 
+    float: left;
 }
 
+.onHideAin
+{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+
+}
+
+.onShowAin
+{
+    animation-name: exampleabc;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {width: 940px;}
+    to {width: 0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {width: 940px;}
+    to {width: 0px;}
+}
+
+/* Standard syntax */
+@keyframes exampleabc {
+    from {width: 0px;}
+    to {width: 940px;}
+}
+
+.chosen div .cssH1_SspStts_PASS
+{
+    background-color: #ffbb00;
+}
 
 .node { 
     width: 180px;
@@ -138,10 +183,11 @@ html, body{
     background-color: #9CB5ED;
 }
 
-.onChild
+.onChild div 
 {
     background-color: #9CB5ED;
 }
+
 
 
 .info

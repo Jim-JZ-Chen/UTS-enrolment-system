@@ -71,10 +71,12 @@ function onRecive()
 				{
 					this.friend.childNodes[0].childNodes[1].childNodes[5].innerHTML = ToghtherBtn(this.id);
 				}
+				this.innerHTML.childNodes[0].classList.remove("Chosen");
 			}
 			else if(state == "OnPool")
 			{
 				this.innerHTML.childNodes[0].childNodes[1].childNodes[5].innerHTML = "Choosed";
+				this.innerHTML.childNodes[0].classList.add("Chosen");
 			}
 			else if(state == "OnSandbox")
 			{
